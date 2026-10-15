@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<title>Placeholder for a screenshot of the interaction diagram with the demand at every node plotted against it</title>
+<rect x="0" y="0" width="1200" height="760" rx="0" fill="#0E1424"/>
+<rect x="0" y="0" width="1200" height="52" rx="0" fill="#0B1120"/>
+<path d="M0,52 H1200" stroke="#23304A"/>
+<text x="28" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">LRFD Profiles</text>
+<text x="163.8" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">DCRs</text>
+<text x="231.2" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Summary</text>
+<path d="M315.4,50 H410" stroke="#2DD4BF" stroke-width="3"/>
+<text x="321.4" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0" text-anchor="start" font-weight="600">Interaction</text>
+<text x="442" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Soil Checks</text>
+<rect x="28" y="76" width="760" height="656" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="48" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#E2E8F0" text-anchor="start" font-weight="600">Axial force and moment interaction, ACI 318-25</text>
+<path d="M408,186 L417,186 L426,186 L435,186 L444,186 L453,186 L462,186 L471,186 L480,186 L489,186 L498,186 L507,186 L516,186 L523.6,188.6 L530.9,191.9 L537.9,195.6 L544.7,199.9 L551.2,204.5 L557.6,209.4 L563.9,214.6 L570,219.9 L576,225.3 L582,230.6 L588,235.9 L594,241 L600,246.1 L606,251.4 L612,256.8 L617.9,262.3 L623.7,267.9 L629.4,273.5 L635,279.1 L640.4,284.7 L645.7,290.2 L650.7,295.6 L655.5,300.9 L660,306 L664.3,311 L668.4,316 L672.4,321 L676.1,325.9 L679.7,330.8 L683.1,335.5 L686.2,340.2 L689.2,344.7 L692,349.1 L694.5,353.3 L696.9,357.2 L699,361 L700.9,364.5 L702.6,367.7 L704.1,370.6 L705.3,373.3 L706.4,375.9 L707.2,378.3 L707.9,380.7 L708.3,383.1 L708.6,385.6 L708.6,388.1 L708.4,390.7 L708,393.5 L707.4,396.4 L706.6,399.4 L705.6,402.5 L704.3,405.5 L702.9,408.6 L701.2,411.8 L699.4,414.9 L697.3,418.1 L695.1,421.3 L692.6,424.5 L689.9,427.8 L687,431 L683.9,434.3 L680.7,437.6 L677.2,440.9 L673.6,444.2 L669.7,447.6 L665.6,451 L661.3,454.4 L656.8,457.8 L652,461.1 L646.9,464.4 L641.6,467.7 L636,471 L630.2,474.3 L624.2,477.6 L618,481 L611.7,484.3 L605,487.7 L598.1,491 L590.9,494.2 L583.3,497.4 L575.4,500.4 L567,503.3 L558.3,506 L549,508.5 L538.7,510.8 L527,513.1 L514.2,515.2 L500.8,517.2 L486.9,519.1 L473.1,520.8 L459.5,522.5 L446.6,524 L434.6,525.3 L424,526.5 L415,527.6 L408,528.5 L408,528.5 L401,527.6 L392,526.5 L381.4,525.3 L369.4,524 L356.5,522.5 L342.9,520.8 L329.1,519.1 L315.2,517.2 L301.8,515.2 L289,513.1 L277.3,510.8 L267,508.5 L257.7,506 L249,503.3 L240.6,500.4 L232.7,497.4 L225.1,494.2 L217.9,491 L211,487.7 L204.3,484.3 L198,481 L191.8,477.6 L185.8,474.3 L180,471 L174.4,467.7 L169.1,464.4 L164,461.1 L159.2,457.8 L154.7,454.4 L150.4,451 L146.3,447.6 L142.4,444.2 L138.8,440.9 L135.3,437.6 L132.1,434.3 L129,431 L126.1,427.8 L123.4,424.5 L120.9,421.3 L118.7,418.1 L116.6,414.9 L114.8,411.8 L113.1,408.6 L111.7,405.5 L110.4,402.5 L109.4,399.4 L108.6,396.4 L108,393.5 L107.6,390.7 L107.4,388.1 L107.4,385.6 L107.7,383.1 L108.1,380.7 L108.8,378.3 L109.6,375.9 L110.7,373.3 L111.9,370.6 L113.4,367.7 L115.1,364.5 L117,361 L119.1,357.2 L121.5,353.3 L124,349.1 L126.8,344.7 L129.8,340.2 L132.9,335.5 L136.3,330.8 L139.9,325.9 L143.6,321 L147.6,316 L151.7,311 L156,306 L160.5,300.9 L165.3,295.6 L170.3,290.2 L175.6,284.7 L181,279.1 L186.6,273.5 L192.3,267.9 L198.1,262.3 L204,256.8 L210,251.4 L216,246.1 L222,241 L228,235.9 L234,230.6 L240,225.3 L246,219.9 L252.1,214.6 L258.4,209.4 L264.8,204.5 L271.3,199.9 L278.1,195.6 L285.1,191.9 L292.4,188.6 L300,186 L309,186 L318,186 L327,186 L336,186 L345,186 L354,186 L363,186 L372,186 L381,186 L390,186 L399,186 L408,186 Z" fill="#2DD4BF" fill-opacity="0.10" stroke="#2DD4BF" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M408,140 V702 M68,436 H758" stroke="#64748B" stroke-width="1.2"/>
+<text x="418" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4" text-anchor="start">φPn (kip)</text>
+<text x="754" y="426" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4" text-anchor="end">φMn (kip-ft)</text>
+<circle cx="408" cy="376" r="4.2" fill="#22C55E"/>
+<circle cx="468.8" cy="376.4" r="4.2" fill="#22C55E"/>
+<circle cx="516.6" cy="376.8" r="4.2" fill="#22C55E"/>
+<circle cx="552.8" cy="377.2" r="4.2" fill="#22C55E"/>
+<circle cx="579" cy="377.5" r="4.2" fill="#22C55E"/>
+<circle cx="596.6" cy="377.9" r="4.2" fill="#F59E0B"/>
+<circle cx="606.8" cy="378.3" r="4.2" fill="#F59E0B"/>
+<circle cx="610.9" cy="378.7" r="4.2" fill="#F59E0B"/>
+<circle cx="610" cy="379.1" r="4.2" fill="#F59E0B"/>
+<circle cx="605" cy="379.5" r="4.2" fill="#F59E0B"/>
+<circle cx="597" cy="379.8" r="4.2" fill="#F59E0B"/>
+<circle cx="586.5" cy="380.2" r="4.2" fill="#22C55E"/>
+<circle cx="574.4" cy="380.6" r="4.2" fill="#22C55E"/>
+<circle cx="561.1" cy="381" r="4.2" fill="#22C55E"/>
+<circle cx="547.2" cy="381.4" r="4.2" fill="#22C55E"/>
+<circle cx="533.1" cy="381.8" r="4.2" fill="#22C55E"/>
+<circle cx="519.2" cy="382.2" r="4.2" fill="#22C55E"/>
+<circle cx="505.6" cy="382.5" r="4.2" fill="#22C55E"/>
+<circle cx="492.6" cy="382.9" r="4.2" fill="#22C55E"/>
+<circle cx="480.4" cy="383.3" r="4.2" fill="#22C55E"/>
+<circle cx="469" cy="383.7" r="4.2" fill="#22C55E"/>
+<circle cx="458.6" cy="384.1" r="4.2" fill="#22C55E"/>
+<circle cx="449.1" cy="384.5" r="4.2" fill="#22C55E"/>
+<circle cx="440.6" cy="384.8" r="4.2" fill="#22C55E"/>
+<circle cx="433.1" cy="385.2" r="4.2" fill="#22C55E"/>
+<circle cx="426.5" cy="385.6" r="4.2" fill="#22C55E"/>
+<circle cx="420.8" cy="386" r="4.2" fill="#22C55E"/>
+<circle cx="416" cy="386.4" r="4.2" fill="#22C55E"/>
+<circle cx="411.9" cy="386.8" r="4.2" fill="#22C55E"/>
+<circle cx="408.5" cy="387.2" r="4.2" fill="#22C55E"/>
+<circle cx="405.8" cy="387.5" r="4.2" fill="#22C55E"/>
+<circle cx="403.6" cy="387.9" r="4.2" fill="#22C55E"/>
+<circle cx="402" cy="388.3" r="4.2" fill="#22C55E"/>
+<circle cx="400.8" cy="388.7" r="4.2" fill="#22C55E"/>
+<circle cx="400" cy="389.1" r="4.2" fill="#22C55E"/>
+<circle cx="399.5" cy="389.5" r="4.2" fill="#22C55E"/>
+<circle cx="399.2" cy="389.8" r="4.2" fill="#22C55E"/>
+<circle cx="399.3" cy="390.2" r="4.2" fill="#22C55E"/>
+<circle cx="399.4" cy="390.6" r="4.2" fill="#22C55E"/>
+<circle cx="399.8" cy="391" r="4.2" fill="#22C55E"/>
+<circle cx="610.9" cy="378.7" r="10" fill="none" stroke="#F0388F" stroke-width="2"/>
+<rect x="808" y="76" width="364" height="656" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="828" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#E2E8F0" text-anchor="start" font-weight="600">Governing node</text>
+<text x="828" y="152" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Section</text>
+<text x="1150" y="152" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">84 in drilled shaft</text>
+<path d="M828,164 H1150" stroke="#23304A"/>
+<text x="828" y="192" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Reinforcement</text>
+<text x="1150" y="192" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">32 #14, ρg 1.31 %</text>
+<path d="M828,204 H1150" stroke="#23304A"/>
+<text x="828" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Confinement</text>
+<text x="1150" y="232" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">Mander, #6 spiral</text>
+<path d="M828,244 H1150" stroke="#23304A"/>
+<text x="828" y="272" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Governing case</text>
+<text x="1150" y="272" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">LC3</text>
+<path d="M828,284 H1150" stroke="#23304A"/>
+<text x="828" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Depth</text>
+<text x="1150" y="312" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">12.5 ft</text>
+<path d="M828,324 H1150" stroke="#23304A"/>
+<text x="828" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Pu</text>
+<text x="1150" y="352" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">1,240 kip</text>
+<path d="M828,364 H1150" stroke="#23304A"/>
+<text x="828" y="392" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Mu</text>
+<text x="1150" y="392" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">6,860 kip-ft</text>
+<path d="M828,404 H1150" stroke="#23304A"/>
+<text x="828" y="432" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">P-M DCR</text>
+<text x="1150" y="432" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">0.71</text>
+<path d="M828,444 H1150" stroke="#23304A"/>
+<text x="828" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Shear DCR</text>
+<text x="1150" y="472" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="end">0.38</text>
+<path d="M828,484 H1150" stroke="#23304A"/>
+<rect x="828" y="518" width="120" height="28" rx="14" fill="#22C55E" fill-opacity="0.18"/>
+<text x="888" y="537" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4ADE80" text-anchor="middle" font-weight="700">PASS</text>
+</svg>

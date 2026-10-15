@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="PileAxis">
+  <title>PileAxis</title>
+  <!-- Converted by hand from PileAxis.Store/Logo.xaml: the same paths, the gradients in user space, the XAML
+       opacity masks as SVG masks (white at the stop's alpha), and the grid clipped to the plate. -->
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1E36"/>
+      <stop offset="1" stop-color="#07080F"/>
+    </linearGradient>
+    <linearGradient id="shaftFill" gradientUnits="userSpaceOnUse" x1="99.59" y1="0" x2="156.41" y2="0">
+      <stop offset="0" stop-color="#6CCBC5"/>
+      <stop offset="1" stop-color="#3B9F9A"/>
+    </linearGradient>
+    <linearGradient id="shaftFade" gradientUnits="userSpaceOnUse" x1="0" y1="90" x2="0" y2="231.1">
+      <stop offset="0.3" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.451"/>
+    </linearGradient>
+    <mask id="shaftMask" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect x="0" y="0" width="256" height="256" fill="url(#shaftFade)"/>
+    </mask>
+    <radialGradient id="gridFade" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1"
+        gradientTransform="translate(128 90) scale(140 90)">
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask" maskUnits="userSpaceOnUse" x="-80" y="-40" width="420" height="260">
+      <rect x="-80" y="-40" width="420" height="260" fill="url(#gridFade)"/>
+    </mask>
+    <clipPath id="plateClip">
+      <rect width="256" height="256" rx="52" ry="52"/>
+    </clipPath>
+  </defs>
+
+  <rect width="256" height="256" rx="52" ry="52" fill="url(#plate)"/>
+
+  <!-- The shaft, below the ground, fading as it goes down. -->
+  <path d="M99.59,90 L99.59,214.7 A28.41,16.4 0 0 0 156.41,214.7 L156.41,90 Z" fill="url(#shaftFill)" mask="url(#shaftMask)"/>
+
+  <!-- The ground grid at z = 0, over the shaft, fading out toward the plate's edge. -->
+  <g clip-path="url(#plateClip)">
+    <path fill="none" stroke="#39D5C9" stroke-width="1.6" opacity="0.35" mask="url(#gridMask)"
+        d="M128,-26 L-72.92,90 M128,-26 L328.92,90 M153.11,-11.5 L-47.8,104.5 M102.89,-11.5 L303.8,104.5 M178.23,3 L-22.69,119 M77.77,3 L278.69,119 M203.34,17.5 L2.43,133.5 M52.66,17.5 L253.57,133.5 M228.46,32 L27.54,148 M27.54,32 L228.46,148 M253.57,46.5 L52.66,162.5 M2.43,46.5 L203.34,162.5 M278.69,61 L77.77,177 M-22.69,61 L178.23,177 M303.8,75.5 L102.89,191.5 M-47.8,75.5 L153.11,191.5 M328.92,90 L128,206 M-72.92,90 L128,206"/>
+  </g>
+
+  <!-- The cap. -->
+  <path d="M59.69,90 L128,129.44 L128,94.64 L59.69,55.2 Z" fill="#B8A9F6"/>
+  <path d="M196.31,90 L128,129.44 L128,94.64 L196.31,55.2 Z" fill="#8F7EE6"/>
+  <path d="M128,15.76 L196.31,55.2 L128,94.64 L59.69,55.2 Z" fill="#E4DAFF"/>
+
+  <!-- The lateral load. -->
+  <path d="M32.8,133.91 L74.08,110.08 L79.83,120.04 L93.84,92.32 L62.83,90.6 L68.58,100.56 L27.3,124.39 Z" fill="#F0388F"/>
+</svg>

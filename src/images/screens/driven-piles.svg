@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<title>Placeholder for a screenshot of the driven pile sections: a solid square and a voided octagonal precast pile and a steel H-pile</title>
+<rect x="0" y="0" width="1200" height="760" rx="0" fill="#0E1424"/>
+<rect x="0" y="0" width="1200" height="52" rx="0" fill="#0B1120"/>
+<path d="M0,52 H1200" stroke="#23304A"/>
+<text x="28" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Pile</text>
+<text x="95.4" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Soil</text>
+<path d="M156.8,50 H221" stroke="#2DD4BF" stroke-width="3"/>
+<text x="162.8" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0" text-anchor="start" font-weight="600">Section</text>
+<text x="253" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Loads</text>
+<text x="328" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Soil Factors</text>
+<rect x="28" y="76" width="368" height="520" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="48" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#E2E8F0" text-anchor="start" font-weight="600">PCI square, solid</text>
+<text x="48" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#A3B0C4" text-anchor="start">14 in, 8 strands, square spiral</text>
+<rect x="87" y="235" width="250" height="250" rx="6" fill="#B8A9F6" fill-opacity="0.9"/>
+<rect x="109" y="257" width="206" height="206" rx="16" fill="none" stroke="#3B2F7A" stroke-width="2.4" stroke-dasharray="5 3"/>
+<circle cx="133" cy="281" r="8.5" fill="#1E1B4B"/>
+<circle cx="212" cy="281" r="8.5" fill="#1E1B4B"/>
+<circle cx="291" cy="281" r="8.5" fill="#1E1B4B"/>
+<circle cx="291" cy="360" r="8.5" fill="#1E1B4B"/>
+<circle cx="291" cy="439" r="8.5" fill="#1E1B4B"/>
+<circle cx="212" cy="439" r="8.5" fill="#1E1B4B"/>
+<circle cx="133" cy="439" r="8.5" fill="#1E1B4B"/>
+<circle cx="133" cy="360" r="8.5" fill="#1E1B4B"/>
+<rect x="416" y="76" width="368" height="520" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="436" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#E2E8F0" text-anchor="start" font-weight="600">PCI octagonal, voided</text>
+<text x="436" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#A3B0C4" text-anchor="start">24 in, 16 strands, circular spiral</text>
+<path d="M738.6,417.4 L657.4,498.6 L542.6,498.6 L461.4,417.4 L461.4,302.6 L542.6,221.4 L657.4,221.4 L738.6,302.6 Z" fill="#B8A9F6" fill-opacity="0.9"/>
+<circle cx="600" cy="360" r="72" fill="#131B2E"/>
+<circle cx="600" cy="360" r="116" fill="none" stroke="#3B2F7A" stroke-width="2.4" stroke-dasharray="5 3"/>
+<circle cx="698" cy="360" r="6.5" fill="#1E1B4B"/>
+<circle cx="690.5" cy="397.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="669.3" cy="429.3" r="6.5" fill="#1E1B4B"/>
+<circle cx="637.5" cy="450.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="600" cy="458" r="6.5" fill="#1E1B4B"/>
+<circle cx="562.5" cy="450.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="530.7" cy="429.3" r="6.5" fill="#1E1B4B"/>
+<circle cx="509.5" cy="397.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="502" cy="360" r="6.5" fill="#1E1B4B"/>
+<circle cx="509.5" cy="322.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="530.7" cy="290.7" r="6.5" fill="#1E1B4B"/>
+<circle cx="562.5" cy="269.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="600" cy="262" r="6.5" fill="#1E1B4B"/>
+<circle cx="637.5" cy="269.5" r="6.5" fill="#1E1B4B"/>
+<circle cx="669.3" cy="290.7" r="6.5" fill="#1E1B4B"/>
+<circle cx="690.5" cy="322.5" r="6.5" fill="#1E1B4B"/>
+<text x="600" y="365" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4" text-anchor="middle">void</text>
+<rect x="804" y="76" width="368" height="520" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="824" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#E2E8F0" text-anchor="start" font-weight="600">AISC HP 14x117</text>
+<text x="824" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#A3B0C4" text-anchor="start">Strong axis, 1/16 in corrosion allowance</text>
+<rect x="863" y="230" width="250" height="26" rx="0" fill="#94A3B8"/>
+<rect x="863" y="464" width="250" height="26" rx="0" fill="#94A3B8"/>
+<rect x="977" y="256" width="22" height="208" rx="0" fill="#7C8DB5"/>
+<path d="M838,360 H1138" stroke="#F0388F" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="838" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#F9A8D4" text-anchor="start" font-style="italic">x</text>
+<path d="M1138,440 V300" stroke="#5EEAD4" stroke-width="2.6"/>
+<path d="M1131,300 l7,-12 l7,12 z" fill="#5EEAD4"/>
+<text x="988" y="530" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="middle">load along the web: bending about x</text>
+<text x="48" y="626" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#5EEAD4" text-anchor="start" font-weight="600">Precast pretensioned</text>
+<text x="270" y="626" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#A3B0C4" text-anchor="start">ACI 318-25 prestressed strength, PCI spiral, driving stresses</text>
+<text x="48" y="662" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#5EEAD4" text-anchor="start" font-weight="600">Steel H-pile</text>
+<text x="270" y="662" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#A3B0C4" text-anchor="start">AISC 360-22: E3 compression, F2/F3/F6 flexure, G2/G6 shear, H1</text>
+<text x="48" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#5EEAD4" text-anchor="start" font-weight="600">Axial capacity</text>
+<text x="270" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#A3B0C4" text-anchor="start">FHWA GEC-12: Nordlund, alpha and beta methods</text>
+</svg>

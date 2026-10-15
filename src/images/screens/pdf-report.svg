@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<title>Placeholder for two pages of the PDF submittal report: the cover and the response profiles</title>
+<rect x="0" y="0" width="1200" height="760" rx="0" fill="#0E1424"/>
+<rect x="128" y="50" width="460" height="680" rx="4" fill="#000000" fill-opacity="0.35"/>
+<rect x="120" y="40" width="460" height="680" rx="4" fill="#F8FAFC"/>
+<rect x="148" y="66" width="54" height="26" rx="4" fill="#E2E8F0"/>
+<text x="175" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748B" text-anchor="middle" font-weight="700">LOGO</text>
+<text x="552" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1E293B" text-anchor="end" font-weight="600">Your Firm</text>
+<path d="M148,104 H552" stroke="#2DD4BF" stroke-width="2"/>
+<text x="148" y="190" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#1E293B" text-anchor="start" font-weight="700">Lateral and Axial Pile Analysis</text>
+<text x="148" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#475569" text-anchor="start">Sample Project, Pile P-1</text>
+<text x="148" y="280" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="start">Pile</text>
+<text x="320" y="280" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1E293B" text-anchor="start">84 in drilled shaft, 30 ft</text>
+<path d="M148,290 H552" stroke="#CBD5E1"/>
+<text x="148" y="314" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="start">Soil</text>
+<text x="320" y="314" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1E293B" text-anchor="start">6 layers, water table at 10 ft</text>
+<path d="M148,324 H552" stroke="#CBD5E1"/>
+<text x="148" y="348" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="start">Load combinations</text>
+<text x="320" y="348" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1E293B" text-anchor="start">4 LRFD, 1 service</text>
+<path d="M148,358 H552" stroke="#CBD5E1"/>
+<text x="148" y="382" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748B" text-anchor="start">Governing</text>
+<text x="320" y="382" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1E293B" text-anchor="start">LC3, P-M DCR 0.71</text>
+<path d="M148,392 H552" stroke="#CBD5E1"/>
+<rect x="148" y="446" width="404" height="7" rx="3" fill="#E2E8F0"/>
+<rect x="148" y="466" width="344" height="7" rx="3" fill="#E2E8F0"/>
+<rect x="148" y="486" width="284" height="7" rx="3" fill="#E2E8F0"/>
+<rect x="148" y="506" width="404" height="7" rx="3" fill="#E2E8F0"/>
+<rect x="148" y="526" width="344" height="7" rx="3" fill="#E2E8F0"/>
+<rect x="148" y="546" width="284" height="7" rx="3" fill="#E2E8F0"/>
+<rect x="148" y="566" width="404" height="7" rx="3" fill="#E2E8F0"/>
+<text x="350" y="702" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Page 1</text>
+<rect x="628" y="50" width="460" height="680" rx="4" fill="#000000" fill-opacity="0.35"/>
+<rect x="620" y="40" width="460" height="680" rx="4" fill="#F8FAFC"/>
+<rect x="648" y="66" width="54" height="26" rx="4" fill="#E2E8F0"/>
+<text x="675" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748B" text-anchor="middle" font-weight="700">LOGO</text>
+<text x="1052" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1E293B" text-anchor="end" font-weight="600">Your Firm</text>
+<path d="M648,104 H1052" stroke="#2DD4BF" stroke-width="2"/>
+<text x="648" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1E293B" text-anchor="start" font-weight="700">5. Response profiles</text>
+<rect x="680" y="170" width="360" height="290" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<path d="M860,170 V460" stroke="#94A3B8"/>
+<path d="M860,170 L874.9,173.6 L887.9,177.2 L899,180.9 L908.5,184.5 L916.5,188.1 L923,191.8 L928.3,195.4 L932.3,199 L935.3,202.6 L937.3,206.2 L938.5,209.9 L938.9,213.5 L938.7,217.1 L937.8,220.8 L936.4,224.4 L934.6,228 L932.4,231.6 L930,235.2 L927.2,238.9 L924.3,242.5 L921.2,246.1 L918,249.8 L914.7,253.4 L911.4,257 L908.1,260.6 L904.8,264.2 L901.6,267.9 L898.4,271.5 L895.3,275.1 L892.4,278.8 L889.5,282.4 L886.7,286 L884.1,289.6 L881.6,293.2 L879.2,296.9 L876.9,300.5 L874.8,304.1 L872.9,307.8 L871.1,311.4 L869.4,315 L867.8,318.6 L866.4,322.2 L865.1,325.9 L863.9,329.5 L862.8,333.1 L861.9,336.8 L861,340.4 L860.2,344 L859.6,347.6 L859,351.2 L858.5,354.9 L858,358.5 L857.7,362.1 L857.4,365.8 L857.1,369.4 L856.9,373 L856.8,376.6 L856.7,380.2 L856.6,383.9 L856.6,387.5 L856.6,391.1 L856.6,394.8 L856.7,398.4 L856.7,402 L856.8,405.6 L856.9,409.2 L857.1,412.9 L857.2,416.5 L857.3,420.1 L857.4,423.8 L857.6,427.4 L857.7,431 L857.9,434.6 L858,438.2 L858.2,441.9 L858.3,445.5 L858.4,449.1 L858.6,452.8 L858.7,456.4 L858.8,460" fill="none" stroke="#BE185D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M860,170 L870.4,173.6 L879.5,177.2 L887.3,180.9 L894,184.5 L899.5,188.1 L904.1,191.8 L907.8,195.4 L910.6,199 L912.7,202.6 L914.1,206.2 L915,209.9 L915.2,213.5 L915.1,217.1 L914.5,220.8 L913.5,224.4 L912.2,228 L910.7,231.6 L909,235.2 L907.1,238.9 L905,242.5 L902.8,246.1 L900.6,249.8 L898.3,253.4 L896,257 L893.7,260.6 L891.4,264.2 L889.1,267.9 L886.9,271.5 L884.7,275.1 L882.6,278.8 L880.6,282.4 L878.7,286 L876.8,289.6 L875.1,293.2 L873.4,296.9 L871.9,300.5 L870.4,304.1 L869,307.8 L867.7,311.4 L866.6,315 L865.5,318.6 L864.5,322.2 L863.6,325.9 L862.7,329.5 L862,333.1 L861.3,336.8 L860.7,340.4 L860.2,344 L859.7,347.6 L859.3,351.2 L858.9,354.9 L858.6,358.5 L858.4,362.1 L858.2,365.8 L858,369.4 L857.8,373 L857.7,376.6 L857.7,380.2 L857.6,383.9 L857.6,387.5 L857.6,391.1 L857.6,394.8 L857.7,398.4 L857.7,402 L857.8,405.6 L857.9,409.2 L857.9,412.9 L858,416.5 L858.1,420.1 L858.2,423.8 L858.3,427.4 L858.4,431 L858.5,434.6 L858.6,438.2 L858.7,441.9 L858.8,445.5 L858.9,449.1 L859,452.8 L859.1,456.4 L859.2,460" fill="none" stroke="#5B47C9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M860,170 L866.7,173.6 L872.5,177.2 L877.6,180.9 L881.8,184.5 L885.4,188.1 L888.4,191.8 L890.7,195.4 L892.5,199 L893.9,202.6 L894.8,206.2 L895.3,209.9 L895.5,213.5 L895.4,217.1 L895,220.8 L894.4,224.4 L893.6,228 L892.6,231.6 L891.5,235.2 L890.2,238.9 L888.9,242.5 L887.5,246.1 L886.1,249.8 L884.6,253.4 L883.1,257 L881.7,260.6 L880.2,264.2 L878.7,267.9 L877.3,271.5 L875.9,275.1 L874.6,278.8 L873.3,282.4 L872,286 L870.8,289.6 L869.7,293.2 L868.6,296.9 L867.6,300.5 L866.7,304.1 L865.8,307.8 L865,311.4 L864.2,315 L863.5,318.6 L862.9,322.2 L862.3,325.9 L861.8,329.5 L861.3,333.1 L860.8,336.8 L860.4,340.4 L860.1,344 L859.8,347.6 L859.5,351.2 L859.3,354.9 L859.1,358.5 L858.9,362.1 L858.8,365.8 L858.7,369.4 L858.6,373 L858.6,376.6 L858.5,380.2 L858.5,383.9 L858.5,387.5 L858.5,391.1 L858.5,394.8 L858.5,398.4 L858.5,402 L858.6,405.6 L858.6,409.2 L858.7,412.9 L858.7,416.5 L858.8,420.1 L858.9,423.8 L858.9,427.4 L859,431 L859,434.6 L859.1,438.2 L859.2,441.9 L859.2,445.5 L859.3,449.1 L859.4,452.8 L859.4,456.4 L859.5,460" fill="none" stroke="#0F766E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="648" y="492" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#475569" text-anchor="start">Figure 5.2  Bending moment along the pile, LRFD combinations</text>
+<rect x="648" y="530" width="404" height="18" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<rect x="660" y="536" width="60" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="760" y="536" width="53" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="860" y="536" width="46" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="960" y="536" width="39" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="648" y="548" width="404" height="18" rx="0" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.6"/>
+<rect x="660" y="554" width="57" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="760" y="554" width="50" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="860" y="554" width="43" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="960" y="554" width="36" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="648" y="566" width="404" height="18" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<rect x="660" y="572" width="54" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="760" y="572" width="47" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="860" y="572" width="40" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="960" y="572" width="58" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="648" y="584" width="404" height="18" rx="0" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.6"/>
+<rect x="660" y="590" width="51" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="760" y="590" width="44" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="860" y="590" width="37" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="960" y="590" width="55" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="648" y="602" width="404" height="18" rx="0" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="0.6"/>
+<rect x="660" y="608" width="48" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="760" y="608" width="41" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="860" y="608" width="59" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="960" y="608" width="52" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="648" y="620" width="404" height="18" rx="0" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.6"/>
+<rect x="660" y="626" width="45" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="760" y="626" width="38" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="860" y="626" width="56" height="6" rx="3" fill="#CBD5E1"/>
+<rect x="960" y="626" width="49" height="6" rx="3" fill="#CBD5E1"/>
+<text x="850" y="702" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Page 2</text>
+</svg>

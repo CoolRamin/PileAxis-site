@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Features — PileAxis</title>
+<meta name="description" content="What PileAxis computes for drilled shafts, precast pretensioned piles and steel H-piles: coupled p-y and axial analysis, nine soil models, ACI 318-25 and AISC 360-22 section checks, FHWA axial capacity, soil and equilibrium audits, pushover and the PDF report." />
+<meta name="color-scheme" content="light dark" />
+<meta name="theme-color" content="#0a0f1c" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PileAxis" />
+<meta property="og:url" content="https://www.pileaxis.com/features/" />
+<meta property="og:title" content="PileAxis features: the engineering in detail" />
+<meta property="og:description" content="Coupled lateral and axial pile analysis, ACI 318-25 and AISC 360-22 section checks, FHWA axial capacity, independent soil and equilibrium audits, driven piles, pushover and the report." />
+<link rel="canonical" href="https://www.pileaxis.com/features/" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="/styles.css" />
+<script src="/site.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="/" aria-label="PileAxis home">
+      <img class="brand__mark" src="/images/pileaxis-mark.svg" alt="" width="34" height="34" />
+      <span class="brand__name">PileAxis</span>
+    </a>
+    <div class="nav__menu" id="site-menu">
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="/features/" aria-current="page">Features</a></li>
+          <li><a href="/#pro">Pro</a></li>
+          <li><a href="/pricing/">Pricing</a></li>
+          <li><a href="/support/">Support</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <a class="icon-btn" href="https://github.com/CoolRamin/PileAxis-site" target="_blank" rel="noopener" aria-label="PileAxis on GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+        </a>
+        <a class="btn btn--primary btn--sm" href="/#download">Download free</a>
+      </div>
+    </div>
+    <button class="icon-btn nav__toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+      <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero on-dark" aria-labelledby="page-title">
+    <div class="container">
+      <p class="eyebrow">Features</p>
+      <h1 id="page-title">The engineering, in detail.</h1>
+      <p>What PileAxis computes for a drilled shaft, a precast pretensioned pile or a steel H-pile, the methods and standards it follows, how it has been checked, and where it stops. The built-in manual explains every method and equation so you can verify the results yourself.</p>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="/#download">Download free</a>
+        <a class="btn btn--secondary" href="/pricing/">Compare plans</a>
+      </div>
+    </div>
+  </section>
+
+  <nav class="subnav" aria-label="On this page">
+    <div class="container">
+      <ul>
+        <li><a href="#types">Piles</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#soil">Soil</a></li>
+        <li><a href="#axial">Axial</a></li>
+        <li><a href="#section">Section</a></li>
+        <li><a href="#checks">Checks</a></li>
+        <li><a href="#driven">Driven piles</a></li>
+        <li><a href="#pushover">Pushover</a></li>
+        <li><a href="#report">Report</a></li>
+        <li><a href="#cloud">Cloud</a></li>
+        <li><a href="#assistant">Assistant</a></li>
+        <li><a href="#limits">Limits</a></li>
+        <li><a href="#validation">Validation</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== Pile systems ===================== -->
+  <section id="types" class="alt-band" aria-labelledby="types-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Pile systems</p>
+        <h2 id="types-title">One deep foundation element, three ways to build it.</h2>
+        <p>Each pile analysis in a project chooses its pile system on the Pile tab. The lateral and axial solution is the same for all three; the section check and the axial capacity follow the pile system, each to the standard that governs it.</p>
+      </div>
+      <ul class="types types--3">
+        <li class="type-card reveal">
+          <div class="type-card__art"><img src="/images/types/type-drilled.svg" width="260" height="170" alt="" loading="lazy" /></div>
+          <span class="badge badge--free">Free</span>
+          <h3>Drilled shaft or caisson</h3>
+          <p>A circular cast-in-place reinforced concrete pier, uniform along its length. Section strength to ACI 318-25 on a Mander-confined fiber section; axial capacity by the FHWA drilled-shaft methods.</p>
+        </li>
+        <li class="type-card reveal">
+          <div class="type-card__art"><img src="/images/types/type-precast.svg" width="260" height="170" alt="" loading="lazy" /></div>
+          <span class="badge badge--premium">Pro</span>
+          <h3>Driven precast pretensioned pile</h3>
+          <p>The PCI standard square and octagonal piles, solid or voided. ACI 318-25's prestressed provisions, PCI's spiral and driving-stress checks; axial capacity by FHWA GEC-12.</p>
+        </li>
+        <li class="type-card reveal">
+          <div class="type-card__art"><img src="/images/types/type-hpile.svg" width="260" height="170" alt="" loading="lazy" /></div>
+          <span class="badge badge--premium">Pro</span>
+          <h3>Driven steel H-pile</h3>
+          <p>AISC HP shapes from the catalogue or custom plate dimensions, bent about the strong or the weak axis. AISC 360-22 member checks; axial capacity by FHWA GEC-12.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== Analysis ===================== -->
+  <section id="analysis" aria-labelledby="analysis-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Analysis &middot; Free</p>
+        <h2 id="analysis-title">Lateral and axial response, solved together.</h2>
+        <p>The pile is a beam on nonlinear soil springs: p-y springs for the lateral response, t-z springs along the shaft and a Q-z spring at the tip for the axial response, solved together so the axial load's effect on bending is carried through.</p>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card reveal">
+          <div class="spec-card__head"><p class="card__kicker">Numerical method</p><span class="badge badge--free">Free</span></div>
+          <h3>A layered p-y solver</h3>
+          <ul class="check-list">
+            <li>The coupled axial and lateral formulation of Naik and Peyrot for piles and caissons in layered soil</li>
+            <li>Finite differences on a banded matrix, solved in time proportional to the number of nodes</li>
+            <li>Newton-Raphson iteration with a backtracking line search for robust convergence</li>
+            <li>A uniform mesh, or a graded mesh finer near the head where the curvature is greatest, with every layer interface and the water table on a node</li>
+            <li>An outer loop that updates each node's stiffness from the section's moment-curvature response</li>
+          </ul>
+        </div>
+        <div class="spec-card reveal">
+          <div class="spec-card__head"><p class="card__kicker">Boundary conditions</p><span class="badge badge--free">Free</span></div>
+          <h3>Heads, tips and the axial load</h3>
+          <ul class="check-list">
+            <li>Free or fixed heads, with a head shear, moment and axial load per combination</li>
+            <li>Free, pinned, fixed or spring-supported tips; the base springs derived from the p-y response or entered by you</li>
+            <li>The axial load's P-delta moment carried through the head and tip shear as well as the interior</li>
+            <li>A guide to choosing them by the pile's length relative to its stiffness, in the manual</li>
+          </ul>
+        </div>
+        <div class="spec-card spec-card--wide reveal">
+          <div class="spec-card__head"><p class="card__kicker">Every run reports</p><span class="badge badge--free">Free</span></div>
+          <h3>The whole pile, for every load combination</h3>
+          <ul class="check-list">
+            <li>Profiles of deflection, bending moment, shear and soil reaction, and of settlement, axial force and unit skin friction, along the whole embedment</li>
+            <li>Demand-to-capacity ratios for axial force with moment, and for shear, at every node</li>
+            <li>The governing case found separately for section strength, for soil capacity, and for deflection and settlement</li>
+            <li>Every enabled combination solved at once in parallel, each on its own copy of the pile, with no limit on the number of combinations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Soil ===================== -->
+  <section id="soil" class="alt-band" aria-labelledby="soil-title">
+    <div class="container">
+      <div class="feature-row reveal">
+        <div class="feature-row__text">
+          <p class="eyebrow">Soil &middot; Free</p>
+          <h3 id="soil-title">Nine soil models, layer by layer, under a water table.</h3>
+          <p>Each layer takes its own model and parameters, and a soil profile drawn to scale beside the grid shows the column the solver sees.</p>
+          <ul class="check-list">
+            <li><strong>Soft clay</strong>, Matlock (1970)</li>
+            <li><strong>Stiff clay below the water table</strong>, Reese, Cox and Koop (1975)</li>
+            <li><strong>Stiff clay above the water table</strong>, Welch and Reese (1972)</li>
+            <li><strong>Sand</strong>, Reese, Cox and Koop (1974), the full piecewise curve</li>
+            <li><strong>API sand</strong>, API RP 2A-WSD, with its static and cyclic factor</li>
+            <li><strong>Weak rock</strong>, Reese (1997); <strong>strong rock</strong> (vuggy limestone), FHWA-NHI-10-016</li>
+            <li><strong>Linear elastic</strong> soil, and <strong>your own tabular p-y curves</strong> <span class="badge badge--premium">Pro</span></li>
+            <li>The Georgiadis (1983) correction at layer interfaces, and AASHTO group p-multipliers per pile</li>
+            <li>A water table: buoyant unit weights and effective stress below it, for the soil and the pile's own weight</li>
+          </ul>
+        </div>
+        <figure class="shot">
+          <div class="shot__frame">
+            <div class="shot__bar"><img src="/favicon.svg" alt="" width="16" height="16" /><span class="shot__title">Soil &middot; Layers and profile</span><span class="shot__controls" aria-hidden="true"><span class="min"></span><span class="max"></span><span class="close"></span></span></div>
+            <div class="shot__body"><img src="/images/screens/soil-profile.svg" width="1200" height="760" loading="lazy" alt="Illustration of the Soil tab: six layers in a grid with their models and parameters, beside a coloured soil profile with a water table and the pile drawn through it." /></div>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Axial ===================== -->
+  <section id="axial" aria-labelledby="axial-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Axial capacity</p>
+        <h2 id="axial-title">Skin friction and end bearing, by the method that fits the pile.</h2>
+        <p>The unit resistances along the shaft and at the tip set the t-z and Q-z springs and the soil capacity checks. A drilled shaft takes the drilled-shaft methods; a driven pile takes the driven-pile methods.</p>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card reveal">
+          <div class="spec-card__head"><p class="card__kicker">Drilled shafts</p><span class="badge badge--free">Free</span></div>
+          <h3>FHWA-NHI-10-016</h3>
+          <ul class="check-list">
+            <li>Clay, sand and rock side resistance and end bearing aligned with FHWA-NHI-10-016</li>
+            <li>SPT blow counts per sand layer for beta-method side resistance and a correlated end bearing</li>
+            <li>A rock side-resistance method per layer: normal, degraded or caving sockets, or the Colorado DOT claystone methods</li>
+          </ul>
+        </div>
+        <div class="spec-card spec-card--premium reveal">
+          <div class="spec-card__head"><p class="card__kicker">Driven piles</p><span class="badge badge--premium">Pro</span></div>
+          <h3>FHWA GEC-12 static methods</h3>
+          <ul class="check-list">
+            <li>Nordlund in cohesionless layers and the Tomlinson alpha method in cohesive ones, FHWA's recommended set</li>
+            <li>The effective-stress beta method in either, with your own coefficients or mid-range defaults</li>
+            <li>For an H-pile, the box perimeter and the plugged toe, or the bare steel when you choose</li>
+          </ul>
+        </div>
+        <div class="spec-card spec-card--wide reveal">
+          <div class="spec-card__head"><p class="card__kicker">Resistance factors</p><span class="badge badge--free">Free</span></div>
+          <h3>Per geomaterial, for compression and uplift</h3>
+          <ul class="check-list">
+            <li>Distinct ASD or LRFD factors by soil type and by compression or uplift, filled from FHWA presets in one click</li>
+            <li>The FHWA driven-pile static-analysis factors for driven piles <span class="badge badge--premium">Pro</span></li>
+            <li>The soil capacity checked against the resistance-factored capacity on every combination</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Section ===================== -->
+  <section id="section" class="alt-band" aria-labelledby="section-title">
+    <div class="container">
+      <div class="feature-row feature-row--flip reveal">
+        <div class="feature-row__text">
+          <p class="eyebrow">Section strength &middot; Free</p>
+          <h3 id="section-title">ACI 318-25 on a Mander-confined fiber section.</h3>
+          <p>A drilled shaft's section is checked at every node for every strength combination, and its stiffness follows the cracking the loads cause.</p>
+          <ul class="check-list">
+            <li><strong>Axial force and moment:</strong> a full interaction diagram from a fiber section confined by the Mander, Priestley and Park model</li>
+            <li><strong>Shear</strong> to ACI 318-25 Section 22.5, with the axial load's contribution</li>
+            <li><strong>Variable stiffness:</strong> each node's effective stiffness from the moment-curvature response, within the code's limits</li>
+            <li><strong>Reinforcement</strong> by bar count and size or by a target steel ratio, US or metric bars, with the cast-in-place pile steel ratio limits checked</li>
+            <li><strong>Transverse reinforcement</strong> in a confined and an ordinary zone, each with its own spacing, in the analysis and in the section sketch</li>
+          </ul>
+        </div>
+        <figure class="shot">
+          <div class="shot__frame">
+            <div class="shot__bar"><img src="/favicon.svg" alt="" width="16" height="16" /><span class="shot__title">Results &middot; Interaction</span><span class="shot__controls" aria-hidden="true"><span class="min"></span><span class="max"></span><span class="close"></span></span></div>
+            <div class="shot__body"><img src="/images/screens/interaction.svg" width="1200" height="760" loading="lazy" alt="Illustration of the Interaction sub-tab: the axial force and moment strength envelope of a drilled shaft with the demand at every node plotted inside it, the governing node circled, and its values listed beside the chart." /></div>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Checks ===================== -->
+  <section id="checks" aria-labelledby="checks-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Checks &middot; Free</p>
+        <h2 id="checks-title">Accuracy, checked from every side.</h2>
+        <p>A converged residual says the solver stopped; it does not say the answer is right. Every solution is examined from the structural, the geotechnical and the numerical side.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal">
+          <p class="card__kicker">Soil mobilization</p>
+          <h3>The soil's capacity, checked on its own</h3>
+          <p>Lateral p-y springs, shaft skin friction and tip bearing are each screened against their ultimate capacity, independently of the section's demand-to-capacity ratio.</p>
+        </div>
+        <div class="card reveal">
+          <p class="card__kicker">Equilibrium audit</p>
+          <h3>Independent of the solver</h3>
+          <p>A separate calculation re-integrates each solution for lateral force, lateral moment with the P-delta moment, and axial force, and flags a blow-up, a deflection beyond the pile's diameter or a degenerate stiffness. Its trace is printed for review.</p>
+        </div>
+        <div class="card reveal">
+          <p class="card__kicker">Governing cases</p>
+          <h3>One per kind of check</h3>
+          <p>Section strength, soil capacity, and deflection and settlement each name their own governing combination, and four status lights show the state of each at a glance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Loads ===================== -->
+  <section id="loads" class="alt-band" aria-labelledby="loads-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Load cases &middot; Free</p>
+        <h2 id="loads-title">Service and strength combinations, routed for you.</h2>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal">
+          <h3>Tagged once</h3>
+          <p>Each combination is marked as a service or an LRFD strength case; section checks read the strength cases and deflection and settlement checks the service ones.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Self-weight in step</h3>
+          <p>A dead-load factor per case keeps the pile's own weight consistent with the combination, such as 0.9D for an uplift check.</p>
+        </div>
+        <div class="card reveal">
+          <h3>From your spreadsheet</h3>
+          <p>Copy load cases to a spreadsheet, edit them there and paste them straight back, with no file to convert.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Driven piles ===================== -->
+  <section id="driven" class="premium-band on-dark" aria-labelledby="driven-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow eyebrow--premium">Driven piles &middot; Pro &middot; New</p>
+        <h2 id="driven-title">Precast pretensioned concrete and steel H-piles, <span class="grad">each to its own code.</span></h2>
+        <p>A driven pile is analysed with the same coupled lateral and axial solution as a drilled shaft. What changes is the section, its check and the axial capacity: the FHWA driven-pile static methods of GEC-12 replace the drilled-shaft ones. The drilled shaft stays free.</p>
+      </div>
+      <div class="premium-showcase reveal">
+        <figure class="shot">
+          <div class="shot__frame">
+            <div class="shot__bar"><img src="/favicon.svg" alt="" width="16" height="16" /><span class="shot__title">Section &middot; Driven piles</span><span class="shot__controls" aria-hidden="true"><span class="min"></span><span class="max"></span><span class="close"></span></span></div>
+            <div class="shot__body"><img src="/images/screens/driven-piles.svg" width="1200" height="760" loading="lazy" alt="Illustration of three driven pile sections: a solid square precast pile with eight strands inside a square spiral, a voided octagonal precast pile with sixteen strands inside a circular spiral, and a steel HP shape with its strong axis marked, above the standards each is checked to." /></div>
+          </div>
+        </figure>
+        <div>
+          <span class="badge badge--premium">Pro</span>
+          <h3>Choose the pile type, and the rest follows.</h3>
+          <p>Pick a precast or an H-pile on the Pile tab and the Section tab offers its sections, the Soil Factors tab its FHWA preset, and the results its checks. A project that already holds a driven pile still opens and runs at any tier; choosing one for another pile needs Pro or the free trial.</p>
+          <ul class="check-list check-list--premium">
+            <li>One bending plane per analysis: for an H-pile you choose the strong or the weak axis, and its stiffness, capacity and soil-face width follow</li>
+            <li>Driving-stress limits reported for information, for comparison with a driveability analysis made elsewhere</li>
+            <li>A project holding a driven pile is saved to the cloud, never to a local file</li>
+          </ul>
+        </div>
+      </div>
+      <div class="premium-grid">
+        <article class="premium-card reveal">
+          <div class="premium-card__body">
+            <span class="badge badge--premium">Precast pretensioned</span>
+            <h3>PCI square and octagonal piles</h3>
+            <p>The PCI standard pile family, solid or voided, with the strand pattern and the spiral formed to it: square around a square pile's strands, circular around an octagonal pile's ring.</p>
+            <ul class="check-list check-list--premium check-list--sm">
+              <li>Interaction diagram by strain compatibility with the ACI 318-25 stress block and unconfined concrete</li>
+              <li>Grade 270 low-relaxation strand by the Devalapura-Tadros power formula</li>
+              <li>The spiral checked against PCI's prescriptive minimum for wire size and pitch</li>
+              <li>Driving-stress limits in compression and tension, from the effective precompression</li>
+            </ul>
+            <p class="refs-inline">ACI 318-25 &middot; PCI RP-156-25 &middot; FHWA GEC-12 &sect;8.6.1</p>
+          </div>
+        </article>
+        <article class="premium-card reveal">
+          <div class="premium-card__body">
+            <span class="badge badge--premium">Steel H-pile</span>
+            <h3>AISC HP shapes, strong or weak axis</h3>
+            <p>Every HP shape with its exact AISC Shapes Database v16.0 properties, or plates of your own, with an optional corrosion allowance that thins every plate before any property is worked.</p>
+            <ul class="check-list check-list--premium check-list--sm">
+              <li>Compression by AISC 360-22 E3, the embedded length braced by the soil</li>
+              <li>Flexure by F2 and F3 about the strong axis, flange local buckling checked, or F6 about the weak axis</li>
+              <li>Shear by G2 in the web or G6 in the flanges</li>
+              <li>Combined force and moment by H1, so the ratio reads 1.0 where the unity check does</li>
+            </ul>
+            <p class="refs-inline">AISC 360-22 &middot; AISC Shapes Database v16.0 &middot; FHWA GEC-12 &sect;8.5.1</p>
+          </div>
+        </article>
+        <article class="premium-card reveal">
+          <div class="premium-card__body">
+            <span class="badge badge--premium">Axial capacity</span>
+            <h3>FHWA GEC-12, three methods</h3>
+            <p>The static-analysis methods of FHWA's driven-pile circular feed the same t-z and Q-z springs and the same soil capacity checks as a drilled shaft's.</p>
+            <ul class="check-list check-list--premium check-list--sm">
+              <li>Nordlund in sand, with Thurman's toe coefficients and Meyerhof's limiting toe resistance</li>
+              <li>The Tomlinson alpha method in clay</li>
+              <li>The beta method in either, as an alternative per material</li>
+              <li>FHWA's static-analysis resistance factors in one click</li>
+            </ul>
+            <p class="refs-inline">FHWA-NHI-16-009 (GEC-12) Ch. 7 &middot; Table 7-1</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Data ===================== -->
+  <section id="data" aria-labelledby="data-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Data and reports &middot; Free</p>
+        <h2 id="data-title">Your data, in the formats you already use.</h2>
+      </div>
+      <div class="card-grid card-grid--4">
+        <div class="card reveal">
+          <h3>Plain-text projects</h3>
+          <p>Each project is one JSON <code>.lpcj</code> file holding every pile analysis at a site, readable and easy to send to a reviewer.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Spreadsheet round trip</h3>
+          <p>Soil layers and load cases copy out with headers and paste back in; every chart copies as a picture or as its data.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Governing report and CSV</h3>
+          <p>A numbered governing-design report for every run, ready to paste into a submittal, and a CSV export of the results.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Formulas, units, themes</h3>
+          <p>Type a formula after <code>=</code> in any number field and lengths in feet and inches; Imperial or SI display; light or dark.</p>
+        </div>
+      </div>
+      <div class="card-grid mt-xl">
+        <div class="card reveal">
+          <h3>Several piles, one project</h3>
+          <p>A line of caissons or a tower's four foundations in one project, each pile with its own analysis and its own location; Run All runs them all.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Undo that survives a save</h3>
+          <p>Undo and redo reach back past a save, and Reset returns to the last saved state in one step.</p>
+        </div>
+        <div class="card reveal">
+          <h3>The manual, built in</h3>
+          <p>Help &gt; User's Manual opens the complete manual beside your work: every method, equation, assumption, limit and the validation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Pushover and report ===================== -->
+  <section class="premium-band on-dark" aria-labelledby="protools-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow eyebrow--premium">Pro</p>
+        <h2 id="protools-title">The capacity to failure, and <span class="grad">the report that carries it.</span></h2>
+      </div>
+      <div id="pushover" class="premium-showcase reveal">
+        <figure class="shot">
+          <div class="shot__frame">
+            <div class="shot__bar"><img src="/favicon.svg" alt="" width="16" height="16" /><span class="shot__title">Analysis &middot; Pushover</span><span class="shot__controls" aria-hidden="true"><span class="min"></span><span class="max"></span><span class="close"></span></span></div>
+            <div class="shot__body"><img src="/images/screens/pushover.svg" width="1200" height="760" loading="lazy" alt="Illustration of the Pushover screen: three capacity curves of head shear against head displacement, each rising to a peak and softening beyond it, with first yield, the first plastic hinge and the ultimate point marked, and the governing case's capacity, ductility and failure mode listed beside them." /></div>
+          </div>
+        </figure>
+        <div>
+          <span class="badge badge--premium">Pro</span>
+          <h3>Pushover: the full lateral capacity curve.</h3>
+          <p>For each load case the axial load is held at the case's value while the head is pushed sideways in small displacement steps, so the curve runs through its peak and down the softening branch a load-controlled push cannot reach.</p>
+          <ul class="check-list check-list--premium">
+            <li>The ultimate lateral capacity, and the reserve beyond a given design load</li>
+            <li>First yield and plastic hinges, with the depth where each forms</li>
+            <li>Curvature ductility, and whether the section or the soil fails first</li>
+            <li>The curve starts where the pile actually stands under its moment and axial load</li>
+          </ul>
+        </div>
+      </div>
+      <div id="report" class="premium-showcase premium-showcase--flip reveal">
+        <div>
+          <span class="badge badge--premium">Pro</span>
+          <h3>The branded PDF submittal report.</h3>
+          <p>One PDF assembles the complete record of a run, from the cover to the references, written only from the current results.</p>
+          <ul class="check-list check-list--premium">
+            <li>Project, pile, soil, section and load case data</li>
+            <li>The governing summary for section and soil capacity, the response and ratio profiles, and the interaction diagram</li>
+            <li>The soil capacity results and the equilibrium audit, and the pushover when one has been run</li>
+            <li>Your firm's name and logo, the paper size, and the sections you choose, remembered for next time</li>
+          </ul>
+        </div>
+        <figure class="shot">
+          <div class="shot__frame">
+            <div class="shot__bar"><img src="/favicon.svg" alt="" width="16" height="16" /><span class="shot__title">PDF report</span><span class="shot__controls" aria-hidden="true"><span class="min"></span><span class="max"></span><span class="close"></span></span></div>
+            <div class="shot__body"><img src="/images/screens/pdf-report.svg" width="1200" height="760" loading="lazy" alt="Illustration of two pages of the PDF report: a cover with a logo, the project and the governing result, and a page of response profiles with a table." /></div>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Cloud ===================== -->
+  <section id="cloud" class="alt-band" aria-labelledby="cloud-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Cloud</p>
+        <h2 id="cloud-title">Optional, never required.</h2>
+        <p>Local project files are the default and work offline without an account. Sign in when you want your projects on any computer, and the Pro tools for the work you repeat.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal"><span class="badge badge--account">Free account</span><h3>Cloud projects</h3><p>Save a project to the cloud under a job and open it on any computer you sign in on.</p></div>
+        <div class="card reveal"><span class="badge badge--account">Free account</span><h3>Version history</h3><p>Every save is a version you can open and restore; saved versions are kept for six months.</p></div>
+        <div class="card reveal"><span class="badge badge--account">Free account</span><h3>Recycle bin and clients</h3><p>Deleted projects wait thirty days where you can restore them, and a client list fills in your projects.</p></div>
+        <div class="card reveal"><span class="badge badge--premium">Pro</span><h3>Organization sharing</h3><p>File a job under your organization so every member can open, edit and run it; whoever is editing is shown to the others.</p></div>
+        <div class="card reveal"><span class="badge badge--premium">Pro</span><h3>p-y and soil libraries</h3><p>Save a p-y curve or a whole soil column once and load it anywhere: private, shared with your organization, or a soil column published to every PileAxis user.</p></div>
+        <div class="card reveal"><span class="badge badge--premium">Pro</span><h3>Maps and attachments</h3><p>Your projects and soil models on a map, each pile at its own coordinates, and site boundaries from a shapefile, KML/KMZ or a sketch.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AI Assistant ===================== -->
+  <section id="assistant" class="assistant-band on-dark" aria-labelledby="assistant-title">
+    <div class="container">
+      <div class="assistant reveal">
+        <div class="assistant__text">
+          <p class="eyebrow">AI Assistant &middot; Pro</p>
+          <h2 id="assistant-title">Ask about your project in plain words.</h2>
+          <p>The AI Assistant opens in its own window beside the program and answers from your open project: its pile, soil, section and loads, its results and its pushover. It streams its reply, formatted, and says what it is doing while it works.</p>
+          <ul class="check-list">
+            <li>It explains the governing case, a demand-to-capacity ratio, the soil's mobilization or a pushover's failure mode</li>
+            <li>It checks a tabular p-y curve for common entry mistakes</li>
+            <li>It answers how-to and methodology questions from the User's Manual, and cites the source papers behind the methods, opening each at the quoted passage</li>
+            <li>It finds your other cloud projects near this one, measured to each pile, or by pile, soil, section and load properties, or by a description of the work</li>
+            <li>Every number it states is read from your project; one it cannot trace is marked unverified</li>
+          </ul>
+          <p class="assistant__note">It reads your project and cannot change it, and it searches only your own projects. Its answers are subject to the same disclaimer as the rest of the program: review by a licensed engineer is required. Use counts against a monthly allowance shown in the chat window.</p>
+        </div>
+        <figure class="assistant__art">
+          <img src="/images/screens/ai-assistant.svg" width="1200" height="600" loading="lazy" alt="Illustration of the AI Assistant: the engineer asks why a load case governs the section check; the reply names the case, its ratio and the depth where the moment peaks, explains why, and cites the project's summary, the manual and a source paper, with a note that an untraceable number would be marked unverified." />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Limits ===================== -->
+  <section id="limits" aria-labelledby="limits-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Limits</p>
+        <h2 id="limits-title">What it does not do, said plainly.</h2>
+        <p>So you know what still needs doing elsewhere. The user's manual lists every assumption and every limit.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal">
+          <h3>One pile, one plane</h3>
+          <p>A single pile bending in one plane. Simultaneous biaxial bending is not solved, and rectangular non-prestressed sections are not supported.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Groups through p-multipliers</h3>
+          <p>A pile in a group is approximated by the p-multiplier you enter; a full group interaction matrix is not solved.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Static loading</h3>
+          <p>Cyclic effects enter only through the API sand model's cyclic factor. Time-history dynamic response is outside the scope.</p>
+        </div>
+        <div class="card reveal">
+          <h3>No driveability simulation</h3>
+          <p>Driving-stress limits are reported for information only; a wave-equation driveability analysis is made elsewhere.</p>
+        </div>
+        <div class="card reveal">
+          <h3>No liquefaction or lateral spreading</h3>
+          <p>Liquefaction-induced lateral spreading is outside the scope.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Empirical p-y models</h3>
+          <p>Real soil can depart from the idealized curves; site-specific geotechnical recommendations take precedence over the models and defaults.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Validation ===================== -->
+  <section id="validation" class="alt-band" aria-labelledby="validation-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Validation</p>
+        <h2 id="validation-title">Pinned to published answers.</h2>
+        <p>The methods are checked against closed-form solutions, published reference examples and worked examples, each held by an automated test. The manual's validation chapter gives every case with its numbers.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal"><p class="card__kicker">Closed form</p><h3>Hetenyi (1946)</h3><p>A long elastic pile on a Winkler foundation: head deflection within 0.8 % of the closed-form value.</p></div>
+        <div class="card reveal"><p class="card__kicker">Reference examples</p><h3>Soft clay and sand</h3><p>Published reference solutions in Matlock soft clay and Reese sand: head deflection and maximum moment within 3 % in the clay, and within 10 % in the sand.</p></div>
+        <div class="card reveal"><p class="card__kicker">Field test</p><h3>Weak rock</h3><p>Reese's (1997) Islamorada load test: head deflection within 3.3 % of the value Reese reports.</p></div>
+        <div class="card reveal"><p class="card__kicker">ACI 318-25</p><h3>Section strength</h3><p>Pure axial strength within 0.04 % of the hand calculation, and shear with the axial contribution exact.</p></div>
+        <div class="card reveal"><p class="card__kicker">Models</p><h3>Mander and stiff clay</h3><p>Confined concrete across its limiting cases, and three published stiff-clay p-y curves matched point for point.</p></div>
+        <div class="card reveal"><p class="card__kicker">Driven piles</p><h3>FHWA worked examples</h3><p>Nordlund and Tomlinson values reproduced from FHWA's printed examples, PCI section tables, the strand model's published example, and the AISC catalogue's exact properties.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== References ===================== -->
+  <section id="references" class="section--tight" aria-labelledby="references-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">References</p>
+        <h2 id="references-title">The documents behind the checks.</h2>
+      </div>
+      <ol class="refs reveal">
+        <li>Naik, T.R. and Peyrot, A.H. (1976). Analysis and design of laterally loaded piles and caissons in a layered soil system. <em>ASCE National Structural Engineering Conference.</em></li>
+        <li>Matlock, H. (1970). Correlations for design of laterally loaded piles in soft clay. <em>2nd Offshore Technology Conference</em>, Paper 1204.</li>
+        <li>Reese, L.C., Cox, W.R. and Koop, F.D. (1974). Analysis of laterally loaded piles in sand. <em>6th OTC</em>, Paper 2080; (1975) Field testing and analysis of laterally loaded piles in stiff clay, <em>7th OTC</em>, Paper 2312.</li>
+        <li>Welch, R.C. and Reese, L.C. (1972). <em>Laterally Loaded Behavior of Drilled Shafts.</em> Research Report 89-10, Center for Highway Research, University of Texas at Austin.</li>
+        <li>Reese, L.C. (1997). Analysis of laterally loaded piles in weak rock. <em>J. Geotech. and Geoenv. Engrg.</em>, ASCE, 123(11).</li>
+        <li>Georgiadis, M. (1983). Development of p-y curves for layered soils. <em>Geotechnical Practice in Offshore Engineering</em>, ASCE.</li>
+        <li>API (2010). <em>RP 2A-WSD, Recommended Practice for Planning, Designing and Constructing Fixed Offshore Platforms</em>, 22nd ed.</li>
+        <li>Brown, D.A., Turner, J.P. and Castelli, R.J. (2010). <em>Drilled Shafts: Construction Procedures and LRFD Design Methods.</em> FHWA-NHI-10-016 (GEC-10).</li>
+        <li>Hannigan, P.J. et al. (2016). <em>Design and Construction of Driven Pile Foundations.</em> FHWA-NHI-16-009 and -010 (GEC-12).</li>
+        <li>Mander, J.B., Priestley, M.J.N. and Park, R. (1988). Theoretical stress-strain model for confined concrete. <em>J. Struct. Engrg.</em>, ASCE, 114(8).</li>
+        <li>ACI Committee 318 (2025). <em>ACI CODE-318-25, Building Code Requirements for Structural Concrete and Commentary.</em></li>
+        <li>ANSI/AISC 360-22 (2022). <em>Specification for Structural Steel Buildings</em>; AISC Shapes Database v16.0 (2023).</li>
+        <li>PCI Prestressed Concrete Piling Committee (2025). Recommended practice for design, manufacture, and installation of prestressed concrete piling, RP-156-25. <em>PCI Journal</em>, 70(6).</li>
+        <li>Devalapura, R.K. and Tadros, M.K. (1992). Stress-strain modeling of 270 ksi low-relaxation prestressing strands. <em>PCI Journal</em>, March-April 1992.</li>
+        <li>AASHTO (2020). <em>AASHTO LRFD Bridge Design Specifications</em>, 9th ed.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="closing-title">
+    <div class="container closing reveal">
+      <h2 id="closing-title">Run a pile you already know the answer to.</h2>
+      <p>Download PileAxis free, with no account, and check it against a case you trust. Then sign in to try the Pro features free.</p>
+      <div class="cta-row">
+        <a class="btn btn--primary btn--lg" href="/#download">Download free</a>
+        <a class="btn btn--ghost btn--lg" href="/pricing/">Compare plans</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="/" aria-label="PileAxis home">
+          <img class="brand__mark" src="/images/pileaxis-mark.svg" alt="" width="34" height="34" />
+          <span class="brand__name">PileAxis</span>
+        </a>
+        <p>Lateral and axial analysis of piles and drilled shafts in layered soil, for Windows. A RamisoftSolutions product.</p>
+        <p class="sibling">Also from RamisoftSolutions: <a href="https://www.foundatrix.com/" target="_blank" rel="noopener">FoundaTrix Studio</a>, analysis and design of rigid foundations of any shape. One account signs in to both.</p>
+      </div>
+      <div class="footer__col">
+        <h2>Product</h2>
+        <ul>
+          <li><a href="/features/">Features</a></li>
+          <li><a href="/#pro">Pro</a></li>
+          <li><a href="/pricing/">Pricing</a></li>
+          <li><a href="/#download">Download</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Support</h2>
+        <ul>
+          <li><a href="/support/">Help and contact</a></li>
+          <li><a href="https://github.com/CoolRamin/PileAxis-site/issues/new?template=bug_report.yml" target="_blank" rel="noopener">Report a bug</a></li>
+          <li><a href="https://github.com/CoolRamin/PileAxis-site/issues/new?template=feature_request.yml" target="_blank" rel="noopener">Request a feature</a></li>
+          <li><a href="mailto:admin@ramisoftsolutions.com">Email us</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Legal</h2>
+        <ul>
+          <li><a href="/privacy/">Privacy policy</a></li>
+          <li><a href="/terms/">Terms of use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 RamisoftSolutions &middot; Built and maintained in California, United States</span>
+      <div class="footer__social">
+        <a class="icon-btn" href="https://github.com/CoolRamin/PileAxis-site" target="_blank" rel="noopener" aria-label="PileAxis on GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.linkedin.com/company/ramisoftsolutions/" target="_blank" rel="noopener" aria-label="RamisoftSolutions on LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="scrollTopBtn" class="scroll-top" type="button" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg>
+</button>
+
+</body>
+</html>

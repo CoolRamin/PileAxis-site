@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+<title>Placeholder for a screenshot of the AI Assistant explaining why a load case governs, with its sources</title>
+<rect x="0" y="0" width="1200" height="600" rx="0" fill="#0E1424"/>
+<rect x="0" y="0" width="1200" height="52" rx="0" fill="#0B1120"/>
+<text x="28" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#E2E8F0" text-anchor="start" font-weight="600">AI Assistant</text>
+<text x="1172" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4" text-anchor="end">Monthly allowance</text>
+<rect x="870" y="22" width="180" height="10" rx="5" fill="#1E293B"/>
+<rect x="870" y="22" width="52" height="10" rx="5" fill="#2DD4BF"/>
+<rect x="600" y="84" width="572" height="64" rx="14" fill="#1D2A44"/>
+<text x="624" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0" text-anchor="start">Why does LC3 govern the section check, and where along the pile?</text>
+<rect x="28" y="172" width="860" height="320" rx="14" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="52" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1" text-anchor="start">LC3 (1.2D + 1.0W) governs the axial-moment check with a ratio of 0.71 at 12.5 ft,</text>
+<text x="52" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1" text-anchor="start">where the bending moment peaks. Its lateral load is the largest of the four, and its</text>
+<text x="52" y="262" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1" text-anchor="start">axial load is low, which moves the demand toward the flexure-controlled part of the</text>
+<text x="52" y="288" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1" text-anchor="start">interaction diagram, where the section has less capacity.</text>
+<text x="52" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1" text-anchor="start">The moment peaks below the head because the soft clay near the surface gives little</text>
+<text x="52" y="366" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1" text-anchor="start">resistance, so the pile bends until it reaches the stiffer sand beneath it.</text>
+<rect x="52" y="396" width="181.4" height="30" rx="15" fill="#0F1628" stroke="#2B3B5C" stroke-width="1"/>
+<text x="142.7" y="416" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5EEAD4" text-anchor="middle">Your project: Summary</text>
+<rect x="245.4" y="396" width="107.4" height="30" rx="15" fill="#0F1628" stroke="#2B3B5C" stroke-width="1"/>
+<text x="299.1" y="416" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5EEAD4" text-anchor="middle">Manual §7.3</text>
+<rect x="364.8" y="396" width="174" height="30" rx="15" fill="#0F1628" stroke="#2B3B5C" stroke-width="1"/>
+<text x="451.8" y="416" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5EEAD4" text-anchor="middle">Matlock (1970), p. 3</text>
+<rect x="28" y="508" width="1144" height="60" rx="14" fill="#0B1120" stroke="#23304A" stroke-width="1"/>
+<text x="52" y="544" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="start">Ask about your project, its results or a method...</text>
+<rect x="1072" y="520" width="80" height="36" rx="10" fill="#2DD4BF"/>
+<text x="1112" y="543" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#042F2C" text-anchor="middle" font-weight="700">Send</text>
+<rect x="908" y="172" width="264" height="320" rx="14" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="928" y="206" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0" text-anchor="start" font-weight="600">Every number checked</text>
+<text x="928" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">Each value in a reply is</text>
+<text x="928" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">read from your project or</text>
+<text x="928" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">its results. One it cannot</text>
+<text x="928" y="308" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">trace is marked</text>
+<text x="928" y="332" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="start">unverified.</text>
+<rect x="928" y="366" width="104" height="24" rx="12" fill="#F59E0B" fill-opacity="0.2"/>
+<text x="980" y="383" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#FBBF24" text-anchor="middle" font-weight="700">unverified</text>
+</svg>

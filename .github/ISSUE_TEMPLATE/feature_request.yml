@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a new capability, a standard to support, or an improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the open issues first: if your idea is already there, a thumbs-up on it tells us it
+        matters to you too.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: The engineering task, and where the program stops short of it today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like the program to do?
+    validations:
+      required: true
+  - type: input
+    id: standard
+    attributes:
+      label: Standard or reference, if any
+      description: For example a code section, a guide, or a worked example the result should match.
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle it today?
+    validations:
+      required: false

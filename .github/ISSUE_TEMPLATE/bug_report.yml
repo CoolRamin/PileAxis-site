@@ -1,0 +1,70 @@
+name: Bug report
+description: Something in PileAxis does not work as it should
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this. Please keep confidential project data out of
+        this public issue; for anything private, email admin@ramisoftsolutions.com instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem in plain language. A number that looks wrong is a bug too.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a new project
+        2. Set the pile and soil layers ...
+        3. Run the analysis ...
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Version details
+      description: In the program, Help > About > Copy details, then paste here.
+      render: text
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of the program
+      options:
+        - Pile, section and pile type
+        - Soil layers and p-y curves
+        - Loads and load combinations
+        - Analysis or convergence
+        - Results, checks and the governing report
+        - Driven piles (precast or H-pile)
+        - Pushover
+        - PDF report
+        - AI Assistant
+        - Cloud projects, libraries, maps and sign-in
+        - Installation or start-up
+        - Something else
+    validations:
+      required: false
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Project file and screenshots
+      description: |
+        Attaching the .lpcj file that shows the problem helps enormously, if it holds nothing
+        confidential (rename the project, client and site first). Screenshots and the message from
+        the Run screen's log are welcome too.
+    validations:
+      required: false

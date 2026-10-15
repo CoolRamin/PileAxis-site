@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<title>Placeholder for a screenshot of the Soil tab: a layered soil column with a water table beside its profile graphic</title>
+<rect x="0" y="0" width="1200" height="760" rx="0" fill="#0E1424"/>
+<rect x="0" y="0" width="1200" height="52" rx="0" fill="#0B1120"/>
+<path d="M0,52 H1200" stroke="#23304A"/>
+<text x="28" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Pile</text>
+<path d="M89.4,50 H130.8" stroke="#2DD4BF" stroke-width="3"/>
+<text x="95.4" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0" text-anchor="start" font-weight="600">Soil</text>
+<text x="162.8" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Section</text>
+<text x="253" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Loads</text>
+<text x="328" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#A3B0C4" text-anchor="start">Soil Factors</text>
+<rect x="28" y="76" width="760" height="656" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="48" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#E2E8F0" text-anchor="start" font-weight="600">Soil layers</text>
+<rect x="38" y="124" width="740" height="34" rx="0" fill="#0F1628"/>
+<text x="48" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">Top (ft)</text>
+<text x="138" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">Bottom (ft)</text>
+<text x="238" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">Model</text>
+<text x="448" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">γ (pcf)</text>
+<text x="528" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">cu (ksf)</text>
+<text x="608" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">φ (°)</text>
+<text x="678" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">ε50 / k</text>
+<text x="48" y="186" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.0</text>
+<text x="138" y="186" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">6.0</text>
+<text x="238" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">Stiff clay above water</text>
+<text x="448" y="186" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">120</text>
+<text x="528" y="186" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">2.00</text>
+<text x="608" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start"></text>
+<text x="678" y="186" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.007</text>
+<path d="M38,200 H778" stroke="#23304A"/>
+<text x="48" y="230" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">6.0</text>
+<text x="138" y="230" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">14.0</text>
+<text x="238" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">Sand (Reese)</text>
+<text x="448" y="230" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">120</text>
+<text x="528" y="230" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start"></text>
+<text x="608" y="230" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">32</text>
+<text x="678" y="230" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">90 pci</text>
+<path d="M38,244 H778" stroke="#23304A"/>
+<text x="48" y="274" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">14.0</text>
+<text x="138" y="274" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">21.0</text>
+<text x="238" y="274" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">Soft clay (Matlock)</text>
+<text x="448" y="274" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">110</text>
+<text x="528" y="274" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.60</text>
+<text x="608" y="274" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start"></text>
+<text x="678" y="274" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.020</text>
+<path d="M38,288 H778" stroke="#23304A"/>
+<text x="48" y="318" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">21.0</text>
+<text x="138" y="318" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">23.0</text>
+<text x="238" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">Sand (API)</text>
+<text x="448" y="318" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">125</text>
+<text x="528" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start"></text>
+<text x="608" y="318" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">36</text>
+<text x="678" y="318" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">125 pci</text>
+<path d="M38,332 H778" stroke="#23304A"/>
+<text x="48" y="362" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">23.0</text>
+<text x="138" y="362" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">30.0</text>
+<text x="238" y="362" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">Stiff clay below water</text>
+<text x="448" y="362" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">128</text>
+<text x="528" y="362" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">3.50</text>
+<text x="608" y="362" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start"></text>
+<text x="678" y="362" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.005</text>
+<path d="M38,376 H778" stroke="#23304A"/>
+<text x="48" y="406" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">30.0</text>
+<text x="138" y="406" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">40.0</text>
+<text x="238" y="406" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">Weak rock (Reese)</text>
+<text x="448" y="406" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">140</text>
+<text x="528" y="406" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">qu 300</text>
+<text x="608" y="406" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start"></text>
+<text x="678" y="406" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#E2E8F0" text-anchor="start">krm 5e-4</text>
+<path d="M38,420 H778" stroke="#23304A"/>
+<rect x="48" y="470" width="330" height="76" rx="10" fill="#0F1628"/>
+<text x="64" y="500" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#7DD3FC" text-anchor="start" font-weight="600">Water table</text>
+<text x="64" y="526" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#A3B0C4" text-anchor="start">depth 10.0 ft, effective stress below</text>
+<rect x="808" y="76" width="364" height="656" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="828" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#E2E8F0" text-anchor="start" font-weight="600">Soil profile</text>
+<rect x="878" y="146" width="264" height="82.5" rx="0" fill="#C8E6A0" fill-opacity="0.85"/>
+<text x="868" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">0 ft</text>
+<rect x="878" y="228.5" width="264" height="110" rx="0" fill="#F2D58A" fill-opacity="0.85"/>
+<text x="868" y="232.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">6 ft</text>
+<rect x="878" y="338.5" width="264" height="96.2" rx="0" fill="#8FC17A" fill-opacity="0.85"/>
+<text x="868" y="342.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">14 ft</text>
+<rect x="878" y="434.8" width="264" height="27.5" rx="0" fill="#F2C46A" fill-opacity="0.85"/>
+<text x="868" y="438.8" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">21 ft</text>
+<rect x="878" y="462.2" width="264" height="96.2" rx="0" fill="#6FA86A" fill-opacity="0.85"/>
+<text x="868" y="466.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">23 ft</text>
+<rect x="878" y="558.5" width="264" height="137.5" rx="0" fill="#B9A48E" fill-opacity="0.85"/>
+<text x="868" y="562.5" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">30 ft</text>
+<text x="868" y="700" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" text-anchor="end">40 ft</text>
+<path d="M872,283.5 H1148" stroke="#0369A1" stroke-width="2" stroke-dasharray="7 4"/>
+<path d="M1112,273.5 l7,10 l7,-10 z" fill="#0369A1"/>
+<rect x="994" y="124" width="32" height="489.5" rx="4" fill="#475569"/>
+<rect x="982" y="116" width="56" height="14" rx="3" fill="#334155"/>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" width="560" height="500">
+  <title>A laterally loaded drilled shaft in layered soil, with its deflected shape, the soil reaction, a p-y curve and the bending moment along its length</title>
+  <defs>
+    <linearGradient id="shaft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6CCBC5"/>
+      <stop offset="1" stop-color="#3B9F9A"/>
+    </linearGradient>
+    <linearGradient id="shaftFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.55"/>
+    </linearGradient>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="560" height="500">
+      <rect x="0" y="100" width="560" height="360" fill="url(#shaftFade)"/>
+      <rect x="0" y="0" width="560" height="100" fill="#FFFFFF"/>
+    </mask>
+    <marker id="headPink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F0388F"/>
+    </marker>
+    <marker id="headTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5EEAD4"/>
+    </marker>
+    <marker id="headLight" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E2E8F0"/>
+    </marker>
+  </defs>
+
+  <!-- Soil layers -->
+  <rect x="30" y="120" width="340" height="80" rx="2" fill="#B8A9F6" fill-opacity="0.10"/>
+  <rect x="30" y="200" width="340" height="90" fill="#5EEAD4" fill-opacity="0.08"/>
+  <rect x="30" y="290" width="340" height="90" fill="#B8A9F6" fill-opacity="0.16"/>
+  <rect x="30" y="380" width="340" height="90" rx="2" fill="#94A3B8" fill-opacity="0.16"/>
+  <path d="M30,200 H370 M30,290 H370 M30,380 H370" stroke="#94A3B8" stroke-opacity="0.35" stroke-dasharray="4 4"/>
+  <path d="M30,120 H370" stroke="#CBD5E1" stroke-width="1.6"/>
+  <path d="M40,120 l-8,8 M60,120 l-8,8 M80,120 l-8,8 M100,120 l-8,8 M120,120 l-8,8 M140,120 l-8,8 M160,120 l-8,8 M180,120 l-8,8 M300,120 l-8,8 M320,120 l-8,8 M340,120 l-8,8 M360,120 l-8,8" stroke="#94A3B8" stroke-opacity="0.55"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4">
+    <text x="42" y="146">Soft clay</text>
+    <text x="42" y="226">Sand</text>
+    <text x="42" y="316">Stiff clay</text>
+    <text x="42" y="406">Weak rock</text>
+  </g>
+
+  <!-- Water table -->
+  <path d="M30,252 H200" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <path d="M112,244 l6,8 l6,-8 z" fill="#38BDF8"/>
+  <text x="130" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#7DD3FC">water table</text>
+
+  <!-- The shaft before it moves -->
+  <path d="M223,104 V440 A17,8 0 0 0 257,440 V104" fill="none" stroke="#94A3B8" stroke-opacity="0.45" stroke-dasharray="3 4"/>
+
+  <!-- The shaft on its deflected shape -->
+  <g mask="url(#fade)">
+    <path d="M245,104 C241,190 230,280 223,340 C220,380 221,420 222,440 A17,8 0 0 0 256,440 C255,420 254,380 257,340 C264,280 275,190 279,104 Z" fill="url(#shaft)"/>
+    <path d="M262,104 C258,190 252,280 240,340 C237,380 238,420 239,446" fill="none" stroke="#0F2E36" stroke-opacity="0.5" stroke-width="1.2" stroke-dasharray="2 5"/>
+  </g>
+
+  <!-- The cap -->
+  <rect x="220" y="78" width="84" height="28" rx="3" fill="#B8A9F6"/>
+  <rect x="220" y="78" width="84" height="9" rx="3" fill="#E4DAFF"/>
+
+  <!-- Soil reaction: above the point of rotation the soil pushes back on the leading face, below it on the other -->
+  <g stroke="#5EEAD4" stroke-width="1.8" marker-end="url(#headTeal)">
+    <path d="M336,138 H284"/>
+    <path d="M326,172 H281"/>
+    <path d="M314,206 H277"/>
+    <path d="M302,240 H272"/>
+    <path d="M290,274 H268"/>
+    <path d="M190,388 H216"/>
+    <path d="M194,420 H217"/>
+  </g>
+  <text x="300" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5EEAD4" font-style="italic">p(y)</text>
+
+  <!-- Loads at the head -->
+  <path d="M132,92 H214" stroke="#F0388F" stroke-width="3.2" marker-end="url(#headPink)"/>
+  <text x="128" y="80" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#F9A8D4">H</text>
+  <path d="M262,18 V70" stroke="#E2E8F0" stroke-width="2.2" marker-end="url(#headLight)"/>
+  <text x="272" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">P</text>
+
+  <!-- A p-y curve -->
+  <rect x="396" y="14" width="140" height="92" rx="10" fill="#0F1730" fill-opacity="0.85" stroke="#B8A9F6" stroke-opacity="0.3"/>
+  <path d="M412,92 H524 M412,92 V26" stroke="#64748B" stroke-width="1"/>
+  <path d="M412,92 C420,58 438,44 460,40 C480,37 500,37 522,37" fill="none" stroke="#5EEAD4" stroke-width="2.2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#A3B0C4" font-style="italic">
+    <text x="402" y="32">p</text>
+    <text x="518" y="102">y</text>
+  </g>
+
+  <!-- Bending moment along the shaft -->
+  <path d="M430,120 V448" stroke="#64748B" stroke-width="1"/>
+  <path d="M430,120 C458,140 492,190 490,228 C487,270 450,312 430,346 C414,372 417,412 430,446 Z" fill="#B8A9F6" fill-opacity="0.18" stroke="#B8A9F6" stroke-width="2"/>
+  <circle cx="490" cy="226" r="4" fill="#F0388F"/>
+  <path d="M430,226 H484" stroke="#F0388F" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4">
+    <text x="440" y="470">M(z)</text>
+    <text x="497" y="222" fill="#F9A8D4">M max</text>
+  </g>
+</svg>

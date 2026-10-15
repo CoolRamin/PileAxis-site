@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<title>Placeholder for a screenshot of the tabular p-y curve editor: the points entered beside the curve they make</title>
+<rect x="0" y="0" width="1200" height="760" rx="0" fill="#0E1424"/>
+<rect x="0" y="0" width="1200" height="52" rx="0" fill="#0B1120"/>
+<text x="28" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#E2E8F0" text-anchor="start" font-weight="600">User-defined p-y curve</text>
+<text x="1172" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#A3B0C4" text-anchor="end">Layer 3, load test LT-2</text>
+<rect x="28" y="76" width="380" height="656" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<text x="52" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">y (in)</text>
+<text x="228" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#5EEAD4" text-anchor="start" font-weight="600">p (kip/ft)</text>
+<text x="52" y="152" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.00</text>
+<text x="228" y="152" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.00</text>
+<path d="M44,166 H392" stroke="#23304A"/>
+<text x="52" y="202" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.05</text>
+<text x="228" y="202" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">1.01</text>
+<path d="M44,216 H392" stroke="#23304A"/>
+<text x="52" y="252" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.10</text>
+<text x="228" y="252" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">1.91</text>
+<path d="M44,266 H392" stroke="#23304A"/>
+<text x="52" y="302" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.20</text>
+<text x="228" y="302" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">3.44</text>
+<path d="M44,316 H392" stroke="#23304A"/>
+<text x="52" y="352" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.40</text>
+<text x="228" y="352" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">5.65</text>
+<path d="M44,366 H392" stroke="#23304A"/>
+<text x="52" y="402" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">0.80</text>
+<text x="228" y="402" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">7.98</text>
+<path d="M44,416 H392" stroke="#23304A"/>
+<text x="52" y="452" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">1.20</text>
+<text x="228" y="452" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">8.93</text>
+<path d="M44,466 H392" stroke="#23304A"/>
+<text x="52" y="502" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">2.00</text>
+<text x="228" y="502" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">9.49</text>
+<path d="M44,516 H392" stroke="#23304A"/>
+<text x="52" y="552" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">3.00</text>
+<text x="228" y="552" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">9.59</text>
+<path d="M44,566 H392" stroke="#23304A"/>
+<text x="52" y="602" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">5.00</text>
+<text x="228" y="602" font-family="Cascadia Mono, Consolas, monospace" font-size="13" fill="#E2E8F0" text-anchor="start">9.60</text>
+<path d="M44,616 H392" stroke="#23304A"/>
+<rect x="428" y="76" width="744" height="656" rx="12" fill="#131B2E" stroke="#23304A" stroke-width="1"/>
+<path d="M498,676 H1140" stroke="#23304A"/>
+<text x="488" y="680" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="end">0</text>
+<path d="M498,568 H1140" stroke="#23304A"/>
+<text x="488" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="end">2</text>
+<path d="M498,460 H1140" stroke="#23304A"/>
+<text x="488" y="464" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="end">4</text>
+<path d="M498,352 H1140" stroke="#23304A"/>
+<text x="488" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="end">6</text>
+<path d="M498,244 H1140" stroke="#23304A"/>
+<text x="488" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="end">8</text>
+<path d="M498,136 H1140" stroke="#23304A"/>
+<text x="488" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="end">10</text>
+<text x="498" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">0</text>
+<text x="626.4" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">1</text>
+<text x="754.8" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">2</text>
+<text x="883.2" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">3</text>
+<text x="1011.6" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">4</text>
+<text x="1140" y="698" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">5</text>
+<path d="M498,676 L501.2,648 L504.4,621.5 L507.6,596.4 L510.8,572.7 L514,550.3 L517.3,529 L520.5,509 L523.7,490 L526.9,472 L530.1,455 L533.3,439 L536.5,423.8 L539.7,409.4 L542.9,395.8 L546.1,382.9 L549.4,370.7 L552.6,359.2 L555.8,348.3 L559,338 L562.2,328.3 L565.4,319 L568.6,310.3 L571.8,302.1 L575,294.2 L578.2,286.9 L581.5,279.9 L584.7,273.3 L587.9,267 L591.1,261.1 L594.3,255.5 L597.5,250.2 L600.7,245.2 L603.9,240.5 L607.1,236 L610.4,231.8 L613.6,227.8 L616.8,224 L620,220.4 L623.2,217 L626.4,213.8 L629.6,210.7 L632.8,207.9 L636,205.2 L639.2,202.6 L642.5,200.2 L645.7,197.9 L648.9,195.7 L652.1,193.6 L655.3,191.7 L658.5,189.8 L661.7,188.1 L664.9,186.4 L668.1,184.9 L671.3,183.4 L674.5,182 L677.8,180.7 L681,179.4 L684.2,178.3 L687.4,177.1 L690.6,176.1 L693.8,175.1 L697,174.1 L700.2,173.3 L703.4,172.4 L706.6,171.6 L709.9,170.9 L713.1,170.1 L716.3,169.5 L719.5,168.8 L722.7,168.2 L725.9,167.6 L729.1,167.1 L732.3,166.6 L735.5,166.1 L738.8,165.6 L742,165.2 L745.2,164.8 L748.4,164.4 L751.6,164 L754.8,163.7 L758,163.4 L761.2,163 L764.4,162.8 L767.6,162.5 L770.9,162.2 L774.1,162 L777.3,161.7 L780.5,161.5 L783.7,161.3 L786.9,161.1 L790.1,160.9 L793.3,160.7 L796.5,160.6 L799.7,160.4 L803,160.2 L806.2,160.1 L809.4,160 L812.6,159.8 L815.8,159.7 L819,159.6 L822.2,159.5 L825.4,159.4 L828.6,159.3 L831.8,159.2 L835,159.1 L838.3,159 L841.5,159 L844.7,158.9 L847.9,158.8 L851.1,158.7 L854.3,158.7 L857.5,158.6 L860.7,158.6 L863.9,158.5 L867.1,158.5 L870.4,158.4 L873.6,158.4 L876.8,158.3 L880,158.3 L883.2,158.3 L886.4,158.2 L889.6,158.2 L892.8,158.2 L896,158.1 L899.2,158.1 L902.5,158.1 L905.7,158 L908.9,158 L912.1,158 L915.3,158 L918.5,158 L921.7,157.9 L924.9,157.9 L928.1,157.9 L931.4,157.9 L934.6,157.9 L937.8,157.9 L941,157.8 L944.2,157.8 L947.4,157.8 L950.6,157.8 L953.8,157.8 L957,157.8 L960.2,157.8 L963.5,157.8 L966.7,157.8 L969.9,157.7 L973.1,157.7 L976.3,157.7 L979.5,157.7 L982.7,157.7 L985.9,157.7 L989.1,157.7 L992.3,157.7 L995.5,157.7 L998.8,157.7 L1002,157.7 L1005.2,157.7 L1008.4,157.7 L1011.6,157.7 L1014.8,157.7 L1018,157.7 L1021.2,157.7 L1024.4,157.7 L1027.7,157.7 L1030.9,157.7 L1034.1,157.6 L1037.3,157.6 L1040.5,157.6 L1043.7,157.6 L1046.9,157.6 L1050.1,157.6 L1053.3,157.6 L1056.5,157.6 L1059.8,157.6 L1063,157.6 L1066.2,157.6 L1069.4,157.6 L1072.6,157.6 L1075.8,157.6 L1079,157.6 L1082.2,157.6 L1085.4,157.6 L1088.6,157.6 L1091.8,157.6 L1095.1,157.6 L1098.3,157.6 L1101.5,157.6 L1104.7,157.6 L1107.9,157.6 L1111.1,157.6 L1114.3,157.6 L1117.5,157.6 L1120.7,157.6 L1124,157.6 L1127.2,157.6 L1130.4,157.6 L1133.6,157.6 L1136.8,157.6 L1140,157.6" fill="none" stroke="#2DD4BF" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="498" cy="676" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="504.4" cy="621.5" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="510.8" cy="572.7" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="523.7" cy="490" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="549.4" cy="370.7" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="600.7" cy="245.2" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="652.1" cy="193.6" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="754.8" cy="163.7" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="883.2" cy="158.3" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<circle cx="1140" cy="157.6" r="5" fill="#0E1424" stroke="#B8A9F6" stroke-width="2"/>
+<text x="819" y="722" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4" text-anchor="middle">Deflection y (in)</text>
+<rect x="890" y="576" width="240" height="64" rx="10" fill="#0F1628" stroke="#2B3B5C" stroke-width="1"/>
+<text x="906" y="602" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#E2E8F0" text-anchor="start" font-weight="600">Saved to your library</text>
+<text x="906" y="624" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#A3B0C4" text-anchor="start">Private, or shared with your organization</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- PileAxis.Store/Logo.Small.xaml converted by hand: the mark for 40 px and under. -->
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1E36"/>
+      <stop offset="1" stop-color="#07080F"/>
+    </linearGradient>
+    <linearGradient id="shaft" gradientUnits="userSpaceOnUse" x1="93.46" y1="0" x2="162.54" y2="0">
+      <stop offset="0" stop-color="#6CCBC5"/>
+      <stop offset="1" stop-color="#3B9F9A"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="52" ry="52" fill="url(#plate)"/>
+  <path fill="url(#shaft)" d="M93.46,104 L93.46,200 A34.54,19.94 0 0 0 162.54,200 L162.54,104 Z"/>
+  <path fill="#B8A9F6" d="M51.1,104 L128,148.4 L128,108.8 L51.1,64.4 Z"/>
+  <path fill="#8F7EE6" d="M204.9,104 L128,148.4 L128,108.8 L204.9,64.4 Z"/>
+  <path fill="#E4DAFF" d="M128,20 L204.9,64.4 L128,108.8 L51.1,64.4 Z"/>
+  <path fill="#F0388F" d="M28.58,151.99 L64.6,131.19 L72.1,144.18 L89.55,106.4 L48.1,102.62 L55.6,115.61 L19.58,136.41 Z"/>
+</svg>
