@@ -97,12 +97,12 @@ gradients in user space, the XAML opacity masks as SVG masks, the ground grid cl
 `src/images/hero-pile.svg` (the hero's illustration) and `src/images/types/*.svg` (the three pile systems) are
 illustrations.
 
-## Values still to settle
+## Settled values
 
 | What | Where | Now |
 |---|---|---|
-| Microsoft Store link | `src/index.html`, `#download`; every "Download" button goes to `/#download` | PileAxis is not in the Store yet: the panel shows "Coming soon to the Microsoft Store" as a non-link. When the listing is live, make the `.store-btn` an `<a>` to `https://apps.microsoft.com/detail/<Store ID>` (drop `store-btn--soon`), as FoundaTrix Studio's site does |
-| Current installer | `src/index.html`, `#download`, "Install the current release" | The program's ClickOnce publish page, `https://stglatpileclick.blob.core.windows.net/$web/Publish.html`. Retire the button once the Store edition is live |
+| Microsoft Store link | `src/index.html`, `#download`; every "Download" button goes to `/#download` | Settled 2026-10-16, the day the listing went live: the `.store-btn` links `https://apps.microsoft.com/detail/9N0QPQL17F66` (Store ID 9N0QPQL17F66), as FoundaTrix Studio's site does. The requirements are the Store package's: Windows 10 version 2004 or later, x64 (Windows 11 on ARM by emulation), the runtime included |
+| Current installer | (retired) | The "Install the current release" button to the ClickOnce publish page was retired with the Store link; existing ClickOnce installs keep updating themselves |
 | GitHub repository | Every GitHub icon and the issue links | `https://github.com/CoolRamin/PileAxis-site` |
 
 The privacy policy and terms of use are the text of `PileAxis.Store/PrivacyPolicy.md` and `TermsOfUse.md` in the

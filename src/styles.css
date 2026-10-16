@@ -2764,27 +2764,3 @@ section {
 .type-card .badge {
   margin: 0 4px 8px;
 }
-
-/* The Microsoft Store button while the listing is not live: the same shape, not a link. */
-.store-btn--soon {
-  cursor: default;
-  opacity: 0.86;
-  border-style: dashed;
-}
-
-.store-btn--soon:hover {
-  border-color: rgba(255, 255, 255, 0.28);
-}
-
-.download-panel__alt {
-  margin: 22px 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px 16px;
-}
-
-.download-panel__alt span {
-  font-size: 14px;
-  color: var(--hero-ink-soft);
-}
