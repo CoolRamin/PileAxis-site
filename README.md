@@ -85,6 +85,7 @@ capture when one exists:
 | `src/images/screens/py-curve.svg` | Home | The tabular p-y curve editor with its points and curve |
 | `src/images/screens/project-map.svg` | Home | A cloud project's map with its piles and a site-boundary attachment (fictional coordinates) |
 | `src/images/screens/ai-assistant.svg` | Home `#assistant`, Features `#assistant` | The AI Assistant window answering why a case governs, with a citation |
+| `src/images/screens/assistant-whatif.svg` | Home `#connect`, Features `#connect` | Not a screenshot to replace: a generic assistant's conversation running two what-if versions of a pile on the engineer's computer, and the proposal in PileAxis's Assistant Requests pane with Apply and Decline (2026-10-20, PileAxis 12.022; FoundaTrix Studio's site has its footing twin) |
 
 The same shot list, with captions, is in the program's Store listing draft (`PileAxis.Store/StoreListing.md`). When
 replacing one: a fictional project and client only (never a real one), fictional coordinates on any map, a dark-theme

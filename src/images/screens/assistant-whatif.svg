@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" font-family="Segoe UI, Segoe UI Variable Text, Arial, sans-serif">
+  <title>An AI assistant running what-if analyses of a pile on the engineer's own computer, and the proposal waiting for the engineer's Apply</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1c"/>
+      <stop offset="1" stop-color="#171c45"/>
+    </linearGradient>
+    <linearGradient id="premium" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f7ee6"/>
+      <stop offset="0.55" stop-color="#c35bd0"/>
+      <stop offset="1" stop-color="#f0388f"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8a9f6"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(148,163,184,0.09)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect width="1200" height="760" fill="url(#grid)"/>
+
+  <!-- The assistant's conversation: generic, any assistant that takes a custom connector. -->
+  <rect x="48" y="48" width="620" height="664" rx="20" fill="#121726" stroke="rgba(184,169,246,0.28)"/>
+  <circle cx="84" cy="88" r="14" fill="url(#premium)"/>
+  <path d="M84 79 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#ffffff"/>
+  <text x="108" y="84" font-size="16" font-weight="700" fill="#e2e8f0">Your AI assistant</text>
+  <text x="108" y="104" font-size="12.5" fill="#a3b0c4">Connected to your cloud, signed in as you</text>
+  <line x1="48" y1="128" x2="668" y2="128" stroke="rgba(148,163,184,0.18)"/>
+
+  <!-- The engineer -->
+  <rect x="236" y="150" width="408" height="84" rx="16" fill="#1f6f68"/>
+  <text x="256" y="178" font-size="14.5" fill="#ecfeff">P-1's head moves 1.15 in under W2.</text>
+  <text x="256" y="200" font-size="14.5" fill="#ecfeff">Compare a 36 in and a 42 in shaft, both</text>
+  <text x="256" y="222" font-size="14.5" fill="#ecfeff">40 ft long. Which is the lighter that works?</text>
+
+  <!-- Tool calls -->
+  <g font-size="12.5" font-family="Cascadia Mono, Consolas, monospace">
+    <rect x="72" y="254" width="226" height="30" rx="15" fill="rgba(184,169,246,0.12)" stroke="rgba(184,169,246,0.45)"/>
+    <text x="90" y="274" fill="#d6ccff">get_open_model · P-1</text>
+    <rect x="310" y="254" width="264" height="30" rx="15" fill="rgba(45,212,191,0.12)" stroke="rgba(45,212,191,0.55)"/>
+    <text x="328" y="274" fill="#5eead4">run_analysis · 2 versions</text>
+  </g>
+
+  <!-- The answer, from the program's own analysis -->
+  <rect x="72" y="300" width="540" height="150" rx="16" fill="#1c2233" stroke="rgba(148,163,184,0.22)"/>
+  <text x="92" y="328" font-size="14.5" fill="#e2e8f0">Both ran in PileAxis on your computer:</text>
+  <g font-size="14.5">
+    <circle cx="100" cy="353" r="7" fill="#2f9e5a"/>
+    <text x="116" y="358" fill="#e2e8f0">36 in: head 0.62 in, every lamp green</text>
+    <circle cx="100" cy="381" r="7" fill="#2f9e5a"/>
+    <text x="116" y="386" fill="#e2e8f0">42 in: head 0.41 in, every lamp green</text>
+  </g>
+  <text x="92" y="414" font-size="14.5" fill="#e2e8f0">I have proposed the 36 in shaft. Nothing</text>
+  <text x="92" y="436" font-size="14.5" fill="#e2e8f0">changes in your project until you apply it.</text>
+
+  <g font-size="12.5" font-family="Cascadia Mono, Consolas, monospace">
+    <rect x="72" y="470" width="276" height="30" rx="15" fill="rgba(245,158,11,0.12)" stroke="rgba(245,158,11,0.55)"/>
+    <text x="90" y="490" fill="#fcd34d">propose_model · awaiting you</text>
+  </g>
+
+  <rect x="388" y="520" width="256" height="58" rx="16" fill="#1f6f68"/>
+  <text x="408" y="554" font-size="14.5" fill="#ecfeff">Applied. Thanks.</text>
+
+  <rect x="72" y="598" width="440" height="40" rx="16" fill="#1c2233" stroke="rgba(148,163,184,0.22)"/>
+  <text x="92" y="623" font-size="14.5" fill="#e2e8f0">P-1 is now 36 in by 40 ft, its results current.</text>
+
+  <rect x="72" y="656" width="572" height="38" rx="19" fill="#0e1320" stroke="rgba(148,163,184,0.22)"/>
+  <text x="94" y="680" font-size="13.5" fill="#64748b">Ask your assistant…</text>
+
+  <!-- The relay -->
+  <path d="M668 380 C 720 380, 730 290, 790 290" fill="none" stroke="url(#wire)" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <rect x="682" y="362" width="96" height="36" rx="18" fill="#121726" stroke="rgba(45,212,191,0.6)"/>
+  <text x="730" y="385" font-size="12.5" font-weight="600" fill="#5eead4" text-anchor="middle">MCP</text>
+
+  <!-- The engineer's own desk: the Assistant Requests pane -->
+  <rect x="790" y="48" width="362" height="430" rx="20" fill="#f8fafc"/>
+  <text x="818" y="84" font-size="12" font-weight="700" fill="#0f766e" letter-spacing="1.2">YOUR COMPUTER · ASSISTANT REQUESTS</text>
+  <text x="818" y="112" font-size="18" font-weight="700" fill="#0f172a">Proposal: P-1</text>
+  <text x="818" y="134" font-size="12.5" fill="#64748b">A 36 in shaft, 40 ft long</text>
+  <line x1="818" y1="150" x2="1124" y2="150" stroke="#e2e8f0"/>
+
+  <text x="818" y="176" font-size="11.5" font-weight="700" fill="#64748b" letter-spacing="1">CHANGES</text>
+  <g font-size="13.5" fill="#0f172a">
+    <rect x="818" y="186" width="306" height="32" rx="8" fill="#f1f5f9"/>
+    <text x="832" y="207">Diameter</text><text x="1110" y="207" text-anchor="end">30 in → 36 in</text>
+    <rect x="818" y="224" width="306" height="32" rx="8" fill="#f1f5f9"/>
+    <text x="832" y="245">Length</text><text x="1110" y="245" text-anchor="end">35 ft → 40 ft</text>
+  </g>
+
+  <text x="818" y="284" font-size="11.5" font-weight="700" fill="#64748b" letter-spacing="1">RESULTS, OPEN → PROPOSED</text>
+  <g font-size="13.5" fill="#0f172a">
+    <rect x="818" y="294" width="306" height="32" rx="8" fill="#f1f5f9"/>
+    <text x="832" y="315">Head deflection, W2</text>
+    <text x="1110" y="315" text-anchor="end"><tspan fill="#b91c1c">1.15 in</tspan> → <tspan fill="#15803d" font-weight="600">0.62 in</tspan></text>
+    <rect x="818" y="332" width="306" height="32" rx="8" fill="#f1f5f9"/>
+    <text x="832" y="353">Section ratio, governing</text>
+    <text x="1110" y="353" text-anchor="end"><tspan fill="#b91c1c">1.12</tspan> → <tspan fill="#15803d" font-weight="600">0.78</tspan></text>
+  </g>
+
+  <rect x="818" y="390" width="146" height="40" rx="10" fill="#0f766e"/>
+  <text x="891" y="415" font-size="14.5" font-weight="600" fill="#ffffff" text-anchor="middle">Apply</text>
+  <rect x="978" y="390" width="146" height="40" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="1051" y="415" font-size="14.5" font-weight="600" fill="#334155" text-anchor="middle">Decline</text>
+  <text x="818" y="456" font-size="12" fill="#64748b">Applied as one change: Ctrl+Z takes it back.</text>
+
+  <!-- What stays true -->
+  <rect x="790" y="502" width="362" height="210" rx="20" fill="#121726" stroke="rgba(148,163,184,0.22)"/>
+  <text x="818" y="538" font-size="12" font-weight="700" fill="#b8a9f6" letter-spacing="1.2">WHAT STAYS TRUE</text>
+  <g font-size="13.5" fill="#e2e8f0">
+    <circle cx="826" cy="566" r="9" fill="#2f9e5a"/><polyline points="821.5,566 825,569.5 830.5,562.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="846" y="571">Off until you allow it on this computer</text>
+    <circle cx="826" cy="600" r="9" fill="#2f9e5a"/><polyline points="821.5,600 825,603.5 830.5,596.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="846" y="605">Runs here, on copies of your project</text>
+    <circle cx="826" cy="634" r="9" fill="#2f9e5a"/><polyline points="821.5,634 825,637.5 830.5,630.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="846" y="639">Every version checked before it runs</text>
+    <circle cx="826" cy="668" r="9" fill="#2f9e5a"/><polyline points="821.5,668 825,671.5 830.5,664.5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="846" y="673">Nothing changes until you click Apply</text>
+  </g>
+</svg>
