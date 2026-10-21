@@ -519,9 +519,30 @@
     <div class="container">
       <div class="assistant reveal">
         <div class="assistant__text">
+          <p class="eyebrow">From the geotechnical report &middot; New</p>
+          <h2 id="connect-title">A complete pile model, soil profile included, from your geotechnical report.</h2>
+          <p>Connect an AI assistant that accepts custom MCP connectors, Claude among them, and give it the report. It reads PileAxis's own description of every input first (the tab that asks it, its unit, its allowed values, whether it is required), then fills them from the boring logs and creates the pile analysis in your cloud project.</p>
+          <ul class="check-list">
+            <li>Every soil layer, top down, with the p-y model its stratum calls for and that model's own inputs: a clay's c<sub>u</sub>, a sand's &phi; and k<sub>py</sub>, a rock's q<sub>u</sub></li>
+            <li>The water table, the pile and its section, and the load cases at its head</li>
+            <li>Checked with the Soil, Pile, Section and Loads tabs' own checks, some stricter than Run at the desk; nothing is saved while anything is missing or blocking</li>
+            <li>A value the report does not give is asked of you, never guessed; an input left out is listed with the value taken, so you can state it instead</li>
+            <li>Saved unrun, in your name, and marked in Version History as created through an assistant</li>
+          </ul>
+          <p class="assistant__note">How to connect your assistant is explained in the program's user's manual (Help &gt; User's Manual). Creating a plain pile analysis needs only an account; one with a driven pile or a tabular p-y curve needs Pro, as at the desk. How the assistant read the boring logs is its reading: check each layer's type, thickness and strength against the report before you rely on the results.</p>
+        </div>
+        <figure class="assistant__art">
+          <img src="/images/screens/assistant-geotech.svg" width="1200" height="760" loading="lazy" alt="Illustration: an engineer attaches a geotechnical report and asks an AI assistant to create the pile analysis for a pier; the assistant reads five soil layers and the water table, asks for the loads the report does not give, then validates and creates the analysis, whose soil profile appears in the engineer's cloud project with each layer's p-y model and strength, not yet run." />
+        </figure>
+      </div>
+      <div class="assistant assistant--flip reveal">
+        <figure class="assistant__art">
+          <img src="/images/screens/assistant-whatif.svg" width="1200" height="760" loading="lazy" alt="Illustration: an engineer asks an AI assistant to compare a 36 in and a 42 in drilled shaft for a pile whose head moves too far; both versions run in PileAxis on the engineer's computer, the lighter one passes and is proposed, and the engineer's Assistant Requests pane shows its changes and results with Apply and Decline." />
+        </figure>
+        <div class="assistant__text">
           <p class="eyebrow">What-if on your computer &middot; New</p>
-          <h2 id="connect-title">Let your own AI assistant run the what-ifs. You decide what changes.</h2>
-          <p>Connect an AI assistant that accepts custom MCP connectors, Claude among them. With PileAxis open and you signed in, it can read the pile analysis you have open, change what you asked for, and run the versions on your own computer with PileAxis's own analysis. The cloud only passes the requests along; it runs nothing.</p>
+          <h2>Let it run the what-ifs. You decide what changes.</h2>
+          <p>With PileAxis open and you signed in, your assistant can read the pile analysis you have open, change what you asked for, and run the versions on your own computer with PileAxis's own analysis. The cloud only passes the requests along; it runs nothing.</p>
           <ul class="check-list">
             <li>Off until you allow it, on each computer; every request listed in the Assistant Requests pane, with Cancel</li>
             <li>Up to eight versions at a time, each checked first and run on its own copy of your project</li>
@@ -530,22 +551,16 @@
           </ul>
           <p class="assistant__note">Your open project never changes unless you click Apply. Parametric, Monte Carlo and pushover studies are not run for an assistant. The inputs read and a summary of each run go to the cloud and are kept for 24 hours; see the <a href="/privacy/">privacy policy</a>.</p>
         </div>
-        <figure class="assistant__art">
-          <img src="/images/screens/assistant-whatif.svg" width="1200" height="760" loading="lazy" alt="Illustration: an engineer asks an AI assistant to compare a 36 in and a 42 in drilled shaft for a pile whose head moves too far; both versions run in PileAxis on the engineer's computer, the lighter one passes and is proposed, and the engineer's Assistant Requests pane shows its changes and results with Apply and Decline." />
-        </figure>
       </div>
       <div class="section-head section-head--after reveal">
         <div class="assistant__text">
-          <p class="eyebrow">In your cloud &middot; New</p>
-          <h3>It also searches your projects, and creates pile analyses from your report.</h3>
-          <p>The connector reaches the cloud PileAxis and FoundaTrix Studio share. Your assistant signs in with your account, sees only what you can open and saves in your name; the program behind it is PileAxis's own.</p>
+          <p class="eyebrow">Also in your cloud</p>
+          <h3>Search across both programs, and answers from the manual.</h3>
           <ul class="check-list">
             <li>It searches every project and model you can open, of both programs, by project, history, pile inputs, distance or a description of the work</li>
-            <li>It creates a pile analysis in a job from your geotechnical report: every soil layer with its p-y model, the water table, the pile, its section and its load cases, saved unrun for you to check and run</li>
-            <li>It checks the inputs first with the Soil, Pile, Section and Loads tabs' own checks, and asks you for anything missing rather than inventing it</li>
             <li>It answers how PileAxis works from this User's Manual, naming the sections it read</li>
           </ul>
-          <p class="assistant__note">How to connect your assistant is explained in the program's user's manual (Help &gt; User's Manual). Checking inputs, searching by project and creating a plain pile analysis need only an account; searching by a pile analysis's inputs, or creating one with a driven pile or a tabular p-y curve, needs Pro, as at the desk.</p>
+          <p class="assistant__note">Searching by project and the manual need only an account; searching by a pile analysis's inputs needs Pro.</p>
         </div>
       </div>
     </div>
