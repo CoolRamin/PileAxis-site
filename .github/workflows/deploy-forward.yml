@@ -1,0 +1,38 @@
+name: Deploy the pileaxis.com forwarder
+
+# Publishes forward/ to the Static Web App swa-pileaxis-forward (resource group rg-lateralpile), the one-page site that
+# holds pileaxis.com and www.pileaxis.com since the move to piletrix.com (2026-11-01) and sends every visitor to the same
+# page on www.piletrix.com. Deployed on every push to main that touches forward/, and by hand.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "forward/**"
+      - ".github/workflows/deploy-forward.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-forward
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy forward/
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_FORWARD }}
+          action: upload
+          app_location: forward
+          output_location: ""
+          api_location: ""
+          skip_app_build: true
