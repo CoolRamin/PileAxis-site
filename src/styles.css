@@ -2647,6 +2647,18 @@ section {
   font-weight: 600;
 }
 
+/* The company's name in the footer links its site, www.ramisoftsolutions.com, quietly, as the sibling links do. */
+.company-link {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.company-link:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
 .footer__col h2 {
   margin: 0 0 14px;
   font-family: var(--font);
