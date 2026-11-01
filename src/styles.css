@@ -1,4 +1,4 @@
-/* PileAxis website: hand-written CSS, no framework, no build step.
+/* PileTrix Studio website: hand-written CSS, no framework, no build step.
    The design system is the Ramisoft family's (navy hero, teal accent, white cards), the same file as
    FoundaTrix Studio's site so the two product sites read as one family; the lavender and magenta come
    from the family's marks and mark what is Pro. Changes to the shared rules belong in both sites. */
@@ -2768,7 +2768,7 @@ section {
   }
 }
 
-/* ---------- PileAxis additions (the rules above are FoundaTrix Studio's site's, unchanged) ---------- */
+/* ---------- PileTrix Studio additions (the rules above are FoundaTrix Studio's site's, unchanged) ---------- */
 
 /* Three pile systems instead of five foundation types. */
 .types--3 {

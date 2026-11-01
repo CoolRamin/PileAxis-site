@@ -1,6 +1,6 @@
-# PileAxis Website
+# PileTrix Studio Website
 
-Public source for the product website of **PileAxis**, a Windows desktop program by RamisoftSolutions for the
+Public source for the product website of **PileTrix Studio**, a Windows desktop program by RamisoftSolutions for the
 analysis of a single deep foundation element under combined axial and lateral loads in layered soil: drilled shafts
 and caissons, driven precast pretensioned concrete piles and driven steel H-piles. It solves the p-y response coupled
 with the axial response, checks the section to ACI 318-25 or AISC 360-22, and audits the soil's mobilization and the
@@ -14,7 +14,7 @@ This repository's **Issues** are also the public place to report a bug in the pr
 This repository contains **only the static website** (`src/`): HTML, CSS, a small script and SVG artwork, plus the
 GitHub configuration that makes its Issues usable as a public support channel.
 
-**It does not contain, and will never contain, any PileAxis application source code.** The desktop program, its
+**It does not contain, and will never contain, any PileTrix Studio application source code.** The desktop program, its
 engine and its cloud service are developed in a separate, private repository. Nothing here requires or exposes that
 source: no engine code, no project files, no cloud configuration, no build output of the program.
 
@@ -40,7 +40,7 @@ source: no engine code, no project files, no cloud configuration, no build outpu
 | (any 404) | `src/404.html` | Not-found page |
 
 `styles.css` and `site.js` are FoundaTrix Studio's site's own files (www.foundatrix.com, the sibling product), so the
-two product sites read as one family; PileAxis's few additions sit at the end of `styles.css` under their own heading.
+two product sites read as one family; PileTrix Studio's few additions sit at the end of `styles.css` under their own heading.
 A change to a shared rule belongs in both sites. The pages are hand-written HTML with no build step and no framework.
 The site uses no cookies, analytics, trackers or third-party scripts, fonts or images: everything it loads comes from
 its own folder.
@@ -59,9 +59,9 @@ presentation attributes only.
 - The company is **RamisoftSolutions**, one word.
 - No competitor or competing program is named; where a comparison is needed, the word is "reference".
 - Features that are available to administrators only in the program are not advertised; the Store listing draft
-  (`PileAxis.Store/StoreListing.md`, in the program's repository) names them. Add them the day they open to customers.
+  (`PileTrix Studio.Store/StoreListing.md`, in the program's repository) names them. Add them the day they open to customers.
 - Pricing follows the manual's words (§1.5): free, signed in, Pro, free trial; Pro pricing "to be announced"; no
-  promise of anything free for ever. The trial's length is not stated, because the program counts it from the first sign-in to PileAxis
+  promise of anything free for ever. The trial's length is not stated, because the program counts it from the first sign-in to PileTrix Studio
   and its length is a server setting.
 - The emphasis is on what the program computes, end to end, and on its engineering accuracy.
 - No connection details of the AI-assistant connector (no address, no client id) anywhere.
@@ -69,7 +69,7 @@ presentation attributes only.
 
 ## Pictures still to replace
 
-There are **no real screenshots of PileAxis yet**. Every product picture is a clean SVG placeholder drawn to look like
+There are **no real screenshots of PileTrix Studio yet**. Every product picture is a clean SVG placeholder drawn to look like
 the program's dark theme, inside a `.shot` frame whose bar stands in for the window's caption. Replace each with a real
 capture when one exists:
 
@@ -85,16 +85,16 @@ capture when one exists:
 | `src/images/screens/py-curve.svg` | Home | The tabular p-y curve editor with its points and curve |
 | `src/images/screens/project-map.svg` | Home | A cloud project's map with its piles and a site-boundary attachment (fictional coordinates) |
 | `src/images/screens/ai-assistant.svg` | Home `#assistant`, Features `#assistant` | The AI Assistant window answering why a case governs, with a citation |
-| `src/images/screens/assistant-geotech.svg` | Home `#connect`, Features `#connect` | Not a screenshot to replace: a generic assistant reading a geotechnical report (fictional "Mill Creek Overpass", boring B-2) and creating a pile analysis with its five-layer soil profile, saved unrun, with the tool names the endpoint really exposes (2026-10-20, PileAxis 12.019 and later) |
-| `src/images/screens/assistant-whatif.svg` | Home `#connect`, Features `#connect` | Not a screenshot to replace: a generic assistant's conversation running two what-if versions of a pile on the engineer's computer, and the proposal in PileAxis's Assistant Requests pane with Apply and Decline (2026-10-20, PileAxis 12.022; FoundaTrix Studio's site has its footing twin) |
+| `src/images/screens/assistant-geotech.svg` | Home `#connect`, Features `#connect` | Not a screenshot to replace: a generic assistant reading a geotechnical report (fictional "Mill Creek Overpass", boring B-2) and creating a pile analysis with its five-layer soil profile, saved unrun, with the tool names the endpoint really exposes (2026-10-20, PileTrix Studio 12.019 and later) |
+| `src/images/screens/assistant-whatif.svg` | Home `#connect`, Features `#connect` | Not a screenshot to replace: a generic assistant's conversation running two what-if versions of a pile on the engineer's computer, and the proposal in PileTrix Studio's Assistant Requests pane with Apply and Decline (2026-10-20, PileTrix Studio 12.022; FoundaTrix Studio's site has its footing twin) |
 
-The same shot list, with captions, is in the program's Store listing draft (`PileAxis.Store/StoreListing.md`). When
+The same shot list, with captions, is in the program's Store listing draft (`PileTrix Studio.Store/StoreListing.md`). When
 replacing one: a fictional project and client only (never a real one), fictional coordinates on any map, a dark-theme
 window cropped below the caption row, saved as WebP at quality 84 to 86 in `src/images/screens/`; then update the
 `<img>` `src`, `width`, `height` and `alt`.
 
 Artwork that is not a placeholder: `src/images/pileaxis-mark.svg` (the nav and footer mark) and `src/favicon.svg` are
-the program's own mark, converted by hand from `PileAxis.Store/Logo.xaml` and `Logo.Small.xaml` (the same paths, the
+the program's own mark, converted by hand from `PileTrix.Store/Logo.xaml` and `Logo.Small.xaml` (the same paths, the
 gradients in user space, the XAML opacity masks as SVG masks, the ground grid clipped to the plate);
 `src/images/hero-pile.svg` (the hero's illustration) and `src/images/types/*.svg` (the three pile systems) are
 illustrations.
@@ -107,7 +107,7 @@ illustrations.
 | Current installer | (retired) | The "Install the current release" button to the ClickOnce publish page was retired with the Store link; existing ClickOnce installs keep updating themselves |
 | GitHub repository | Every GitHub icon and the issue links | `https://github.com/CoolRamin/PileAxis-site` |
 
-The privacy policy and terms of use are the text of `PileAxis.Store/PrivacyPolicy.md` and `TermsOfUse.md` in the
+The privacy policy and terms of use are the text of `PileTrix Studio.Store/PrivacyPolicy.md` and `TermsOfUse.md` in the
 program's repository (effective October 15, 2026). Change both together.
 
 ## Local preview
@@ -129,7 +129,7 @@ with the repository secret `AZURE_STATIC_WEB_APPS_API_TOKEN` (the app's deployme
 deployed. `src/staticwebapp.config.json` sets trailing slashes, the 404 page and the security headers, including a
 content security policy.
 
-The canonical address is `https://www.pileaxis.com`: the canonical links, `og:url`, `robots.txt` and `sitemap.xml`
+The canonical address is `https://www.piletrix.com`: the canonical links, `og:url`, `robots.txt` and `sitemap.xml`
 all name it.
 
 ## Contributing
@@ -138,5 +138,5 @@ Typo fixes and copy improvements are welcome by pull request; see [CONTRIBUTING.
 
 ## License
 
-MIT for the website's source and content (see [LICENSE](LICENSE)). The PileAxis program itself is separate,
-closed-source software under its own terms. "PileAxis" and its mark are not licensed for reuse by the MIT license.
+MIT for the website's source and content (see [LICENSE](LICENSE)). The PileTrix Studio program itself is separate,
+closed-source software under its own terms. "PileTrix Studio" and its mark are not licensed for reuse by the MIT license.

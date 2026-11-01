@@ -1,7 +1,16 @@
-/* PileAxis website (shared with FoundaTrix Studio's site): the little behaviour the pages share. No dependencies.
+/* PileTrix Studio website (shared with FoundaTrix Studio's site): the little behaviour the pages share. No dependencies.
    Everything here is an enhancement: with scripts off, every page reads and navigates the same. */
 (function () {
   'use strict';
+
+  // The site moved from pileaxis.com to piletrix.com when the program became PileTrix Studio (2026-11-01). Wherever the
+  // old domain still reaches this site, every page sends the reader to the same page on the new one, path and all, so
+  // Help > About in an installed copy still lands on /privacy/ and /terms/. A host-based redirect is not something the
+  // Static Web App's own routes can express.
+  if (/(^|\.)pileaxis\.com$/i.test(window.location.hostname)) {
+    window.location.replace('https://www.piletrix.com' + window.location.pathname + window.location.search + window.location.hash);
+    return;
+  }
 
   // Mobile navigation: the menu button opens and closes the links under the bar.
   var nav = document.querySelector('.nav');
