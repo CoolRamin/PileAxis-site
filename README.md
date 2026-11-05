@@ -31,7 +31,7 @@ source: no engine code, no project files, no cloud configuration, no build outpu
 
 | Path | File | What it is |
 |---|---|---|
-| `/` | `src/index.html` | Home: what the program does, the three pile systems, the free checks, Pro, the AI Assistant, plans, download, support |
+| `/` | `src/index.html` | Home: what the program does, the three pile systems, the free checks, Pro, the AI Assistant, what is coming soon, plans, download, support |
 | `/features/` | `src/features/index.html` | The engineering in detail: methods, soil models, axial capacity, section checks, driven piles, audits, limits, validation, references |
 | `/pricing/` | `src/pricing/index.html` | Free, signed in, and Pro, with a comparison table and questions |
 | `/support/` | `src/support/index.html` | Where to report a bug, ask for a feature or write privately |

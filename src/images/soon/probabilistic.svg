@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="520" height="280"><title>A probabilistic analysis: a histogram of the largest demand-to-capacity ratio over the trials with the probability of exceeding 1, and a ranking of the inputs that drive it</title>
+<rect x="61" y="10" width="168" height="22" rx="11" fill="#0F766E"/>
+<text x="145" y="25.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Latin Hypercube trials</text>
+<rect x="352" y="10" width="100" height="22" rx="11" fill="#5B47C9"/>
+<text x="402" y="25.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Sensitivity</text>
+<g stroke="#74839A" stroke-width="1.6" stroke-linecap="round" fill="none"><path d="M36 222V50"/><path d="M36 222H256"/></g>
+<text x="44" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Trials</text>
+<text x="256" y="240" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Largest DCR</text>
+<g fill="#3B9F9A"><rect x="40" y="212" width="13" height="10" rx="1.5"/><rect x="55" y="192" width="13" height="30" rx="1.5"/><rect x="70" y="160" width="13" height="62" rx="1.5"/><rect x="85" y="124" width="13" height="98" rx="1.5"/><rect x="100" y="94" width="13" height="128" rx="1.5"/><rect x="115" y="82" width="13" height="140" rx="1.5"/><rect x="130" y="96" width="13" height="126" rx="1.5"/><rect x="145" y="126" width="13" height="96" rx="1.5"/><rect x="160" y="164" width="13" height="58" rx="1.5"/></g>
+<g fill="#F0388F"><rect x="175" y="192" width="13" height="30" rx="1.5"/><rect x="190" y="208" width="13" height="14" rx="1.5"/><rect x="205" y="216" width="13" height="6" rx="1.5"/><rect x="220" y="219" width="13" height="3" rx="1"/><rect x="235" y="220.5" width="13" height="1.5" rx="0.5"/></g>
+<path d="M123 222V70" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="123" y="64" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#74839A">P50</text>
+<path d="M174 222V64" stroke="#F0388F" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="180" y="70" width="112" height="20" rx="10" fill="#BE185D"/>
+<text x="236" y="84" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">P(DCR &gt; 1) = 6.7%</text>
+<path d="M400 52V214" stroke="#74839A" stroke-width="1.6" stroke-linecap="round"/>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#74839A">
+<text x="304" y="63">Load case V</text>
+<text x="304" y="103">Layer 2 c<tspan font-size="8.5" dy="2">u</tspan></text>
+<text x="304" y="143">Layer 1 φ</text>
+<text x="304" y="183">Pile length</text>
+</g>
+<rect x="400" y="68" width="74.1" height="16" rx="2" fill="#F0388F"/>
+<rect x="347.75" y="108" width="52.25" height="16" rx="2" fill="#14B8A6"/>
+<rect x="371.5" y="148" width="28.5" height="16" rx="2" fill="#14B8A6"/>
+<rect x="388.6" y="188" width="11.4" height="16" rx="2" fill="#14B8A6"/>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#74839A">
+<text x="479" y="80">+0.78</text>
+<text x="343" y="120" text-anchor="end">−0.55</text>
+<text x="367" y="160" text-anchor="end">−0.30</text>
+<text x="384" y="200" text-anchor="end">−0.12</text>
+</g>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#74839A"><text x="305" y="232" text-anchor="middle">−1</text><text x="400" y="232" text-anchor="middle">0</text><text x="495" y="232" text-anchor="middle">+1</text></g>
+<path d="M305 214H495" stroke="#94A3B8" stroke-width="1.2" opacity="0.7"/>
+<text x="400" y="252" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Rank correlation with the largest DCR</text>
+</svg>

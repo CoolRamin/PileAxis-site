@@ -2800,3 +2800,53 @@ section {
 .type-card .badge {
   margin: 0 4px 8px;
 }
+
+/* Coming soon: two features side by side, one above the other below 900px. The art sits on .type-card__art's backdrop.
+   The same rules as StruTrix Studio's site's additions. */
+.soon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .soon-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.soon-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px 12px 26px;
+  box-shadow: var(--card-shadow);
+}
+
+.soon-card .type-card__art img {
+  display: block;
+}
+
+.soon-card__body {
+  padding: 4px 14px 0;
+}
+
+.soon-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.soon-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+
+.soon-card__body > p {
+  margin: 0 0 18px;
+  font-size: 15px;
+  color: var(--ink-soft);
+}

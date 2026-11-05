@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="520" height="280"><title>A parametric study: a heat map of the largest demand-to-capacity ratio over pile length and diameter, and a curve of head deflection against pile length</title>
+<rect x="75" y="10" width="160" height="22" rx="11" fill="#0F766E"/>
+<text x="155" y="25.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Two inputs · heat map</text>
+<rect x="332" y="10" width="140" height="22" rx="11" fill="#0F766E"/>
+<text x="402" y="25.5" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">One input · curve</text>
+<g stroke="#74839A" stroke-width="1.6" stroke-linecap="round" fill="none"><path d="M56 222V50"/><path d="M56 222H252"/><path d="M300 222V50"/><path d="M300 222H505"/></g>
+<rect x="60" y="192" width="30" height="26" rx="2" fill="#94A3B8" opacity="0.22"/>
+<g stroke="#F0388F" stroke-width="2.5" stroke-linecap="round"><path d="M69 199L81 211"/><path d="M81 199L69 211"/></g>
+<g>
+<rect x="92" y="192" width="30" height="26" rx="2" fill="#F0388F"/><rect x="124" y="192" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="156" y="192" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="188" y="192" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="220" y="192" width="30" height="26" rx="2" fill="#5EEAD4"/>
+<rect x="60" y="164" width="30" height="26" rx="2" fill="#F0388F"/><rect x="92" y="164" width="30" height="26" rx="2" fill="#F0388F"/><rect x="124" y="164" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="156" y="164" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="188" y="164" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="220" y="164" width="30" height="26" rx="2" fill="#14B8A6"/>
+<rect x="60" y="136" width="30" height="26" rx="2" fill="#F0388F"/><rect x="92" y="136" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="124" y="136" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="156" y="136" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="188" y="136" width="30" height="26" rx="2" fill="#14B8A6"/><rect x="220" y="136" width="30" height="26" rx="2" fill="#14B8A6"/>
+<rect x="60" y="108" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="92" y="108" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="124" y="108" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="156" y="108" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="188" y="108" width="30" height="26" rx="2" fill="#14B8A6"/><rect x="220" y="108" width="30" height="26" rx="2" fill="#0F766E"/>
+<rect x="60" y="80" width="30" height="26" rx="2" fill="#F59E0B"/><rect x="92" y="80" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="124" y="80" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="156" y="80" width="30" height="26" rx="2" fill="#14B8A6"/><rect x="188" y="80" width="30" height="26" rx="2" fill="#14B8A6"/><rect x="220" y="80" width="30" height="26" rx="2" fill="#0F766E"/>
+<rect x="60" y="52" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="92" y="52" width="30" height="26" rx="2" fill="#5EEAD4"/><rect x="124" y="52" width="30" height="26" rx="2" fill="#14B8A6"/><rect x="156" y="52" width="30" height="26" rx="2" fill="#14B8A6"/><rect x="188" y="52" width="30" height="26" rx="2" fill="#0F766E"/><rect x="220" y="52" width="30" height="26" rx="2" fill="#0F766E"/>
+</g>
+<text x="155" y="240" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Pile diameter</text>
+<text x="44" y="137" text-anchor="middle" transform="rotate(-90 44 137)" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Pile length</text>
+<g><rect x="60" y="257" width="14" height="10" rx="2" fill="#0F766E"/><rect x="76" y="257" width="14" height="10" rx="2" fill="#14B8A6"/><rect x="92" y="257" width="14" height="10" rx="2" fill="#5EEAD4"/><rect x="160" y="257" width="14" height="10" rx="2" fill="#F59E0B"/><rect x="176" y="257" width="14" height="10" rx="2" fill="#F0388F"/></g>
+<g stroke="#F0388F" stroke-width="2" stroke-linecap="round"><path d="M231 258L239 266"/><path d="M239 258L231 266"/></g>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#74839A"><text x="112" y="266">passes</text><text x="196" y="266">fails</text><text x="246" y="266">did not solve</text></g>
+<text x="308" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Head deflection</text>
+<text x="500" y="240" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#74839A">Pile length</text>
+<path d="M300 163H500" stroke="#F0388F" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="438" y="138" width="62" height="18" rx="9" fill="#BE185D"/>
+<text x="469" y="151" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">Allowable</text>
+<path d="M318 68.8L352 133.6L386 154.2L420 166.6L454 169L488 169.6" stroke="#3B9F9A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<g stroke="#FFFFFF" stroke-width="1.5"><circle cx="318" cy="68.8" r="5" fill="#F0388F"/><circle cx="352" cy="133.6" r="5" fill="#F0388F"/><circle cx="386" cy="154.2" r="5" fill="#F0388F"/><circle cx="420" cy="166.6" r="5" fill="#14B8A6"/><circle cx="454" cy="169" r="5" fill="#14B8A6"/><circle cx="488" cy="169.6" r="5" fill="#14B8A6"/></g>
+</svg>

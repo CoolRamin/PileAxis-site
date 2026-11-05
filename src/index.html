@@ -514,6 +514,52 @@
     </div>
   </section>
 
+  <!-- ===================== Coming soon ===================== -->
+  <section id="soon" class="alt-band" aria-labelledby="soon-title">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <p class="eyebrow">Coming soon</p>
+        <h2 id="soon-title">Sweep a design in one run, and put a probability on its answer.</h2>
+        <p>Two Pro features on their way to PileTrix Studio. Each runs the same coupled lateral and axial analysis you run today, hundreds or thousands of times, on every core your computer has.</p>
+      </div>
+      <div class="soon-grid">
+        <article class="soon-card reveal">
+          <div class="type-card__art"><img src="/images/soon/parametric.svg" width="520" height="280" loading="lazy" alt="Illustration of a parametric study: a heat map of the largest demand-to-capacity ratio over pile length and diameter, passing cells in teal, failing ones in amber and magenta and one that did not solve crossed out, beside a curve of head deflection against pile length that falls below the allowable deflection as the pile gets longer." /></div>
+          <div class="soon-card__body">
+            <div class="soon-card__badges"><span class="badge badge--soon">In testing</span><span class="badge badge--premium">Pro</span></div>
+            <h3>Parametric study</h3>
+            <p>Vary one or two inputs across a range and run every combination in one batch, to see where the design passes and where it stops passing: how long the pile must be, how wide, or how much load it takes before a check fails.</p>
+            <ul class="check-list check-list--sm">
+              <li>Sweep the pile's length or diameter, the p-multiplier, a layer's &phi;, c<sub>u</sub>, total unit weight, k or &epsilon;<sub>50</sub>, the water table, or a load case's shear, moment or axial load</li>
+              <li>A range by start, end and step, or the list of values you want</li>
+              <li>One input as a curve, two as a heat map, of the largest structural or soil demand-to-capacity ratio or the head deflection</li>
+              <li>Every combination a full analysis, run in parallel; one that fails to solve is marked and the rest are kept</li>
+            </ul>
+          </div>
+        </article>
+        <article class="soon-card reveal">
+          <div class="type-card__art"><img src="/images/soon/probabilistic.svg" width="520" height="280" loading="lazy" alt="Illustration of a probabilistic analysis: a histogram of the largest demand-to-capacity ratio over the trials, its median marked and the trials above a ratio of 1 in magenta with their probability, beside a ranking of the inputs that drive the result by rank correlation: the load case's shear first, then a clay layer's strength, a sand layer's friction angle and the pile's length." /></div>
+          <div class="soon-card__body">
+            <div class="soon-card__badges"><span class="badge badge--soon">In testing</span><span class="badge badge--premium">Pro</span></div>
+            <h3>Probabilistic analysis (Monte Carlo)</h3>
+            <p>Give the uncertain inputs a distribution instead of one value, and find how likely the pile is to pass. Each trial is a full analysis, its inputs drawn by Latin Hypercube sampling, so every distribution is covered evenly, one sample in each of its equally likely bands.</p>
+            <ul class="check-list check-list--sm">
+              <li>Normal, lognormal, uniform or triangular distributions on the pile, the soil layers, the water table and the loads</li>
+              <li>The mean, spread and 5th to 95th percentiles of the structural and soil ratios and the head deflection, and the probability of exceeding a ratio of 1 or your deflection limit</li>
+              <li>A sensitivity ranking of the inputs that drive the result, by rank correlation, with no extra runs</li>
+              <li>Fragility curves: the probability of failure as a load case's shear, moment or axial load grows, fitted as a lognormal curve</li>
+              <li>The same seed gives the same trials, run after run, and every trial exports to CSV</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <p class="types-note reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        <span><strong>Not in the current release.</strong> What each feature will do may change before it ships, and the <a href="/features/">features page</a> describes the program as it is today. Tell us what you would use them for in a <a href="https://github.com/CoolRamin/PileAxis-site/issues/new?template=feature_request.yml" target="_blank" rel="noopener">feature request</a>.</span>
+      </p>
+    </div>
+  </section>
+
   <!-- ===================== Plans ===================== -->
   <section id="plans" aria-labelledby="plans-title">
     <div class="container">
